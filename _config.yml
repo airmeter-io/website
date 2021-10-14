@@ -30,7 +30,7 @@ twitter_username: airmeter.io
 github_username:  airmeter-io
 
 # Build settings
-theme: minima
+theme: portfolyou-jekyll-theme
 plugins:
   - jekyll-feed
 
