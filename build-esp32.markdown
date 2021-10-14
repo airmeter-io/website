@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: ESP32
 permalink: /buildesp32/
 ---

@@ -30,7 +30,8 @@ twitter_username: airmeter.io
 github_username:  airmeter-io
 
 # Build settings
-remote_theme: heliumjk/heliumjk.github.io
+remote_theme: airmeter-io/cayman
+
 plugins:
   - jekyll-feed
 
