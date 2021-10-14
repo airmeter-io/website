@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: ESP32
 permalink: /buildesp32/
 ---
@@ -17,8 +17,6 @@ permalink: /buildesp32/
   * [Clone & initialise the latest AirMeter.IO firmware](#clone---initialise-the-latest-airmeter-io-monitor-firmware)
   * [Build the project](#build-the-project)
   * [Flash to device](#flash-to-device)
-
-<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
 
 
 # ESP32 Device Parts & Build
