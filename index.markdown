@@ -10,6 +10,7 @@ sortOrder: 1
 
 # What is AirMeter.IO?
 
+A CO2 and Air Quality monitoring platform.
 
 
 
