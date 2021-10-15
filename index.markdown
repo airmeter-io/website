@@ -4,3 +4,13 @@
 
 layout: default
 ---
+
+
+- What is AirMeter.IO?
+
+
+The COVID-19 pandemic has brought an urgent requirement to measure CO2 to assess the performance and adequacy of ventilation.
+
+
+- Why Measure CO2?
+
