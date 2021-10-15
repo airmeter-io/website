@@ -16,7 +16,7 @@ permalink: /buildesp8266/
   * [Windows Requirements](#windows-requirements)
   * [Step 1 - Install Required Packages](#step-1---install-required-packages)
   * [Step 2 - Setup ESP8266 SDK and build folders](#step-2---setup-esp8266-sdk-and-build-folders)
-  * [Step 3 - Clone & initialise the latest OpenCO2 Monitor firmware](#step-3---clone---initialise-the-latest-openco2-monitor-firmware)
+  * [Step 3 - Clone & initialise the latest AirMeter.IO firmware](#step-3---clone---initialise-the-latest-airmeter-io-firmware)
   * [Step 4 - Build the project](#step-4---build-the-project)
   * [Step 5 - Flash to device](#step-5---flash-to-device)
     + [Windows (Ubuntu WSL2)](#windows--ubuntu-wsl2-)
@@ -26,7 +26,7 @@ permalink: /buildesp8266/
 
 # ESP8266 Device Parts & Build
 
-This document provides build instructions for building a development set using an ESP8266 NodeMCU board to illustrate the use of the Open CO2 Monitor firmware on ESP8266 MCUs.
+This document provides build instructions for building a development set using an ESP8266 NodeMCU board to illustrate the use of the AirMeter.IO firmware on ESP8266 MCUs.
 
 The options available to makers and producers in assembling devices based on the core components used in these units is vast. 
 
@@ -135,14 +135,14 @@ Install the required Python packages
   
   
 
-## Step 3 - Clone & initialise the latest OpenCO2 Monitor firmware
+## Step 3 - Clone & initialise the latest AirMeter.IO firmware
 
   
 
 Clone the repository & change into the directory.
 
-    git clone https://github.com/FurballTheGreat/OpenCO2Monitor.git
-    cd OpenCO2Monitor
+    git clone https://github.com/airmeter-io/AirMeter.IO.Firmware.git
+    cd AirMeter.IO.Firmware
 
   
 
@@ -157,27 +157,27 @@ Copy the ESP8266 SDK config files.
 
 ## Step 4 - Build the project
 
-Navigate in your terminal to the root folder of the OpenCO2 Monitor.
+Navigate in your terminal to the root folder of the AirMeter.IO.
 
-    cd ~/co2build/OpenCO2Monitor
+    cd ~/co2build/AirMeter.IO
 
 Type "make" to build the project. E.g.
 
-    furball@host:~/co2build/OpenCO2Monitor$ make
+    furball@host:~/co2build/AirMeter.IO$ make
     Toolchain path: /home/furball/co2build/xtensa-lx106-elf/bin/xtensa-lx106-elf-gcc
     Toolchain version: esp-2020r3-49-gd5524c1
     Compiler version: 8.4.0
     Python requirements from /home/furball/co2build/ESP8266_RTOS_SDK/requirements.txt are satisfied.
-    App "open-co2-monitor" version: 1452f88
+    App "AirMeter.IO" version: 1452f88
     To flash all build output, run 'make flash' or:
-    python3 /home/furball/co2build/ESP8266_RTOS_SDK/components/esptool_py/esptool/esptool.py --chip esp8266 --port COM5 --baud 115200 --before default_reset --after hard_reset write_flash -z --flash_mode dio --flash_freq 40m --flash_size 4MB 0xd000 /home/furball/co2build/OpenCO2Monitor/build/ota_data_initial.bin 0x0 /home/furball/co2build/OpenCO2Monitor/build/bootloader/bootloader.bin 0x10000 /home/furball/co2build/OpenCO2Monitor/build/open-co2-monitor.bin 0x8000 /home/furball/co2build/OpenCO2Monitor/build/partitions.bin
+    python3 /home/furball/co2build/ESP8266_RTOS_SDK/components/esptool_py/esptool/esptool.py --chip esp8266 --port COM5 --baud 115200 --before default_reset --after hard_reset write_flash -z --flash_mode dio --flash_freq 40m --flash_size 4MB 0xd000 /home/furball/co2build/AirMeter.IO/build/ota_data_initial.bin 0x0 /home/furball/co2build/AirMeter.IO/build/bootloader/bootloader.bin 0x10000 /home/furball/co2build/AirMeter.IO/build/AirMeter.IO.bin 0x8000 /home/furball/co2build/AirMeter.IO/build/partitions.bin
 
   
 ## Step 5 - Flash to device
 
 ### Windows (Ubuntu WSL2)
 
-Since WSL2 does not support COM port access one cannot use the built in make flash command. Using PowerShell navigate to the OpenCO2Monitor folders on the Ubuntu VM shared drive mapped earlier and run.
+Since WSL2 does not support COM port access one cannot use the built in make flash command. Using PowerShell navigate to the AirMeter.IO folders on the Ubuntu VM shared drive mapped earlier and run.
 
     .\FlashAll.bat COM5
 
