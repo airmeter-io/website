@@ -5,6 +5,7 @@
 layout: default
 maintitle: Build a Cloud
 sortOrder: 4
+permalink: /cloud/
 ---
 
  

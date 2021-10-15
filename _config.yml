@@ -21,7 +21,7 @@
 title: airmeter.io
 email: contact@airmeter.io
 description: >- # this means to ignore newlines until "baseurl:"
-  AirMeter.io is an OpenSource platform that makes it easy to build a feature rich CO2 monitor
+  AirMeter.io is an OpenSource platform that facilitates building Internet of Things (IoT) enabled CO2 monitoring devices.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: airmeterIO
