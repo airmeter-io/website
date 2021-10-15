@@ -1,7 +1,7 @@
 ---
 layout: default
 title: ESP32
-permalink: /buildesp32/
+permalink: /build/esp32/
 ---
 
 - [ESP32 Device Parts & Build](#esp32-device-parts---build)

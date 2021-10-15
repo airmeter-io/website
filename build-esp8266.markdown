@@ -1,7 +1,7 @@
 ---
 layout: default
 title: ESP8266
-permalink: /buildesp8266/
+permalink: /build/esp8266/
 ---
 
 
