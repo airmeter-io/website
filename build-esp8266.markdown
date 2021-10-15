@@ -2,7 +2,6 @@
 layout: default
 title: ESP8266
 permalink: /buildesp8266/
-maintitle: ESP8266
 ---
 
 
