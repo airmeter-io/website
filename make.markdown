@@ -3,14 +3,15 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: default
-maintitle: Home 
+maintitle: Make a Device
 ---
 
 
-# What is AirMeter.IO?
+# Make a device
 
+At its core the AirMeter.IO firmware solely needs the supported components to be connected together correctly. The simplest but least reliable way to achieve this is to use a breadboard. 
 
-The COVID-19 pandemic has brought an urgent requirement to measure CO2 to assess the performance and adequacy of ventilation.
+Of course it is 
 
 
 # Why Measure CO2?
