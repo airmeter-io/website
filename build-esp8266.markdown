@@ -2,6 +2,12 @@
 layout: default
 title: ESP8266
 permalink: /build/esp8266/
+breadcrumb:
+    - 
+      name: Make a Device
+      url: /build
+    - 
+      name: ESP8266
 ---
 
 

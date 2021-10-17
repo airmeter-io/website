@@ -2,6 +2,12 @@
 layout: default
 title: ESP32
 permalink: /build/esp32/
+breadcrumb:
+    - 
+      name: Make a Device
+      url: /build
+    - 
+      name: ESP32
 ---
 
 - [ESP32 Device Parts & Build](#esp32-device-parts---build)
