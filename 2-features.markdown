@@ -4,6 +4,10 @@ title: Features & Hardware
 maintitle: Features
 permalink: /features/
 sortOrder: 2
+breadcrumb:
+    - 
+      name: Features
+      
 ---
 
 # Features
