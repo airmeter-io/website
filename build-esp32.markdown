@@ -1,11 +1,11 @@
 ---
 layout: default
 title: ESP32
-permalink: /build/esp32/
+permalink: /make/esp32/
 breadcrumb:
     - 
       name: Make a Device
-      url: /build
+      url: /make
     - 
       name: ESP32
 ---

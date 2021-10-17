@@ -1,11 +1,11 @@
 ---
 layout: default
 title: ESP8266
-permalink: /build/esp8266/
+permalink: /make/esp8266/
 breadcrumb:
     - 
       name: Make a Device
-      url: /build
+      url: /make
     - 
       name: ESP8266
 ---

@@ -9,7 +9,7 @@ permalink: /make/
 breadcrumb:
     - 
       name: Make a Device
-      
+
       
 ---
 
@@ -31,8 +31,8 @@ These instructions are intended for development and test purposes only to enable
 
 Two families of MCU are supported others will be added in the future.
 
-- [Build a Espressif ESP32 Family device.](/build/esp32)
-- [Build a Espressif ESP8266 Family device.](/build/esp8266)
+- [Make a Espressif ESP32 Family device.](/make/esp32)
+- [Make a Espressif ESP8266 Family device.](/make/esp8266)
 
 
 
