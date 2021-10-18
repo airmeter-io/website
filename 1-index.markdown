@@ -11,10 +11,12 @@ breadcrumb:
       name: Home
 ---
 
-![Landing screen in Web UI](https://i.ibb.co/py3drYb/ss1.png)
 # What is AirMeter.io?
+AirMeter.io is an Opensource platform that facilitates building Internet of Things (IoT) enabled CO2 monitoring devices. 
 
-AirMeter.io is an Opensource platform that facilitates building Internet of Things (IoT) enabled CO2 monitoring devices. It has:
+![Landing screen in Web UI](https://i.ibb.co/py3drYb/ss1.png)
+
+It has:
 - A modern responsive Web UI.
 - Calibration & configuration workflows.
 - On device data logging & charting.
