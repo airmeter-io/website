@@ -28,10 +28,16 @@ The REST APIs are fully documented [here](/api). Apart from full customisation t
 
 # Calibration & Configuration Workflows
 
+The CO2 sensor needs to be recalibrated every now and then. The interval between calibrations depends on a number of factors:
+- The sensor design and characteristics. Some sensors need to be calibrated more often than others.
+- Whether the sensor receives shocks & wear/tear. Over time the bulb in a sensor can change in brightness and shocks can misalign components.
+- General drift in readings the extent of this appears to be very sensor model dependent.
 
+The AirMeter.io provides rich web wizard style workflows for managing calibration. These workflow will be replicated with the physical display/buttons in future development.
 
 
 # Secure Captive Portal Onboarding Process
+
 
 
 
