@@ -6,15 +6,11 @@ layout: default
 maintitle: Make a Device
 sortOrder: 3
 permalink: /make/
+title: Make a Device
 breadcrumb:
     - 
-      name: Make a Device
-
-      
+      name: Make a Device      
 ---
-
-
-# Make a Device
 
 At its core the AirMeter.IO firmware solely needs the supported components to be connected together in one of the supported "configurations". 
 
@@ -25,13 +21,19 @@ The simplest but least reliable way to achieve this is to use a breadboard. This
 - 3D Printing of enclosures
 
 
-# Breadboard Instructions
+# ESP32 Device Instructions
+
+The ESP32 family of devices has many microc
+
+[Make or flash a ESP32 Family device](/make/esp32)
+
+# ESP8266 Device Instructions
 
 These instructions are intended for development and test purposes only to enable understanding of the essential components within a device on which the AirMeter.io firmware can run.
 
 Two families of MCU are supported others will be added in the future.
 
-- [Make a Espressif ESP32 Family device.](/make/esp32)
+- 
 - [Make a Espressif ESP8266 Family device.](/make/esp8266)
 
 
