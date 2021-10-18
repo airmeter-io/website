@@ -12,7 +12,6 @@ breadcrumb:
     -
       name: Firmware Build Instructions
 ---
-# Firmware Build Instructions
 
 The project is built using the latest 3.4 ESP8266 RTOS SDK that uses an IDF style model. As such in due course porting to the ESP32 platform will be relatively straight forward.
 
