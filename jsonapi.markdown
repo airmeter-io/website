@@ -3,7 +3,6 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: default
-maintitle: JSON API
 sortOrder: 3
 permalink: /api
 title: JSON API
@@ -225,17 +224,19 @@ This command gets general information about the device micro-controller.
 None
 
 #### Response
+
 |Property|Data Type|Description|
 |--|--|--|
-|Status |Boolean  |True if command succeeded.  |
-|Error |String  | If Status = false then this property **may** be provided to described the error.|
-|MCUName |String | Name of the Micro Controller |
-|CoreCore |Integer | The number of processor cores in the Micro Controller|
-|FreeHeap |Integer | The amount of heap memory in bytes currently available |
-|LeastFreeHeap | Integer | The minimum amount of heap memory in bytes available since boot (e.g peak usage)|
+|Status |Boolean |True if command succeeded.  |
+|Error |String  |If Status = false then this property **may** be provided to described the error.|
+|MCUName |String |Name of the Micro Controller |
+|CoreCore |Integer |The number of processor cores in the Micro Controller|
+|FreeHeap |Integer |The amount of heap memory in bytes currently available |
+|LeastFreeHeap |Integer |The minimum amount of heap memory in bytes available since boot (e.g peak usage)|
 
 
 #### Example
+
     var  cmd = { COMMAND:  "SYSTEMINFO"};
  
     const  requestOptions = {
