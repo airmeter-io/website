@@ -26,7 +26,7 @@ The Web UI is built using [ReactJS](https://reactjs.org), [Charts.js](https://ww
 
 The REST APIs are fully documented [here](/api). Apart from full customisation these APIs are also available for centralised and/or automated control of devices.
 
-# Calibration & Configuration Workflows
+# Calibration & Configuration
 
 The CO2 sensor needs to be recalibrated every now and then. The interval between calibrations depends on a number of factors:
 - The sensor design and characteristics. Some sensors need to be calibrated more often than others.
@@ -36,7 +36,15 @@ The CO2 sensor needs to be recalibrated every now and then. The interval between
 The AirMeter.io provides rich web wizard style workflows for managing calibration. These workflow will be replicated with the physical display/buttons in future development.
 
 
-# Secure Captive Portal Onboarding Process
+
+
+# Secure Captive Portal
+
+To "on-board" a device onto a Wifi network by default the AirMeter.io generates an SSID based upon the MAC address of the Wifi adapter and opens an access point. The SSID and a randomly generated password are displayed on the LCD screen.
+
+When one connects a phone or a laptop to this network the browser is redirected a captive portal. Through this portal the device Web UI can be accessed.
+
+
 
 
 
