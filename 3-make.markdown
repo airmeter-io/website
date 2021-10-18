@@ -33,8 +33,7 @@ These instructions are intended for development and test purposes only to enable
 
 Two families of MCU are supported others will be added in the future.
 
-- 
-- [Make a Espressif ESP8266 Family device.](/make/esp8266)
+[Make a Espressif ESP8266 Family device.](/make/esp8266)
 
 
 

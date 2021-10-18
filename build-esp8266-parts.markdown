@@ -8,7 +8,7 @@ breadcrumb:
       url: /make
     - 
       name: ESP8266
-      url: /make/ESP8266
+      url: /make/esp8266
     -
       name: Parts
 ---
