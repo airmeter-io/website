@@ -395,15 +395,15 @@ The response object holds a list of network objects for the networks found durin
 |Networks|Object Array | Each network found is represented by an item in this array property. |
 
 
-Each network object has these properties:-
+Each network object has these properties.
 
 |Property|Data Type|Description|
 |--|--|--|
 |WifiSSID|String |The SSID of the wireless network. |
-|WifiChannel|Integer | The 2.4ghz channel on which this is communicating. |
-|WifiAuthMode|Integer | The wireless authentication mode this network uses. |
-|WifiApMacAddr| String | The MAC address of the access point.|
-|WifiSignalStrength| Decimal | The signal strength of the network in dBm.|
+|WifiChannel|Integer |The 2.4ghz channel on which this is communicating. |
+|WifiAuthMode|Integer |The wireless authentication mode this network uses. |
+|WifiApMacAddr|String |The MAC address of the access point.|
+|WifiSignalStrength|Decimal|The signal strength of the network in dBm.|
 
 
 
