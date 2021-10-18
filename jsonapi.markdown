@@ -6,7 +6,7 @@
 layout: default
 maintitle: JSON API
 sortOrder: 3
-permalink: /api/
+permalink: /api
 title: JSON API
 breadcrumb:
     - 
