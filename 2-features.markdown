@@ -12,7 +12,7 @@ breadcrumb:
 
 # Supported CO2 Sensor Families
 
-The support for each sensor has been developed with care and in respect to the manufacters recommendations as far as is possible. Each sensor "driver" exposes functions which the UI layers use to configure and control the sensor. 
+The support for each sensor has been developed with care and in respect to the manufactures recommendations as far as is possible. Each sensor "driver" exposes functions which the UI layers use to configure and control the sensor. 
 
 Presently AirMeter.io supports:
 - [*Senseair*](https://senseair.com) - Senseair Sunrise (UART or I2C).
@@ -26,16 +26,14 @@ The Web UI is built using [ReactJS](https://reactjs.org), [Charts.js](https://ww
 
 The REST APIs are fully documented [here](/api). Apart from full customisation these APIs are also available for centralised and/or automated control of devices.
 
-
-
 # Calibration & Configuration
 
-The CO2 sensor needs to be recalibrated every now and then. The interval between calibrations depends on a number of factors:
+CO2 sensors need to be recalibrated periodically. The optimum interval between calibrations depends on a number of factors:
 - The sensor design and characteristics. Some sensors need to be calibrated more often than others.
 - Whether the sensor receives shocks & wear/tear. Over time the bulb in a sensor can change in brightness and shocks can misalign components.
 - General drift in readings the extent of this appears to be very sensor model dependent.
 
-The AirMeter.io provides rich web wizard style workflows for managing calibration. These workflow will be replicated with the physical display/buttons in future development.
+The AirMeter.io provides rich web wizard style workflows for managing calibration. This workflow will be replicated with the physical display/buttons in future development.
 
 
 
@@ -52,17 +50,17 @@ AirMeter.io is intended to be used as a data logger. On a standard configuration
 
 These readings can be view using a [Charts.js](https://www.chartjs.org/) show values over time in the web interface. The results can (*planned functionality*) by downloaded as XML, JSON or CSV.
 
-This data logging function and UI to view relies sole on the device itself so can be used in disconnected environments or cases where there are not enough devices to warrent centralised logging and monitoring.
+This data logging function and UI to view relies sole on the device itself so can be used in disconnected environments or cases where there are not enough devices to warrant centralised logging and monitoring.
 
-Data logging does rely on NTP time syncronisation to ensure the datapoints are correctly timestamped.
+Data logging does rely on NTP time synchronisation to ensure the datapoints are correctly timestamped.
 
 # Remote "Cloud" Monitoring & Logging
 
-Readings can be published using MQTT to either thirdparty cloud services or to a server setup to be a dedicated "private/local cloud". MQTT is supported due to its prevailance. Other protocols for publishing readings may be added in future if they would serve a user base.
+Readings can be published using MQTT to either third-party cloud services or to a server setup to be a dedicated "private/local cloud". MQTT is supported due to its prevalence. Other protocols for publishing readings may be added in future if they would serve a user base.
 
-The frequency of publishing to the MQTT server can be altered and may be different from the frequency of reading sensor values & wrting to the on device data log.
+The frequency of publishing to the MQTT server can be altered and may be different from the frequency of reading sensor values & writing to the on-device data log.
 
-This feature relies on NTP time syncronisation to ensure the datapoints are correctly timestamped.
+This feature relies on NTP time synchronisation to ensure the datapoints are correctly timestamped.
 
 # Low Power Mode (Planned)
 

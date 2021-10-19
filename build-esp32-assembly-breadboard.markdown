@@ -13,9 +13,9 @@ breadcrumb:
       name: Breadboard Assembly Instructions
 ---
 
-There are three designs described here, use the one for the CO2 sensor being used. One important difference between sensors is 3.3V and 5V it is essential that the right design is chosen.
+There are three designs described here for different types of CO2 sensor. 
 
-For ease of understanding the builds are explained as if they are built on a breadboard. As long as the components are connected in same manner a PCB, directly soldered wires or any other reliable electric connection can be used. Breadboards ARE NOT recommended for devices which see active use.
+For illustrative purposes the builds are explained as if they are built on a breadboard. As long as the components are connected in same manner a PCB, directly soldered wires or any other reliable electric connection can be used. Breadboards ARE NOT recommended for devices which see active use.
 
 All three designs utilise a power rail (+/-) for 3.3V power distribution and another power rail (if using a breadboard) as an I2C bus.
 
