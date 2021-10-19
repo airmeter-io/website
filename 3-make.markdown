@@ -16,18 +16,18 @@ At its core the *AirMeter.io* firmware solely needs the supported components to 
 
 # Third-party Build Guides
 
-*AirMeter.io* is designed to enable makers, designers and manufactures to develop and deliver their carefully crafted devices with a high quality feature rich firmware. But without the significant software development time/resource investment that a software package like this entails.
+*AirMeter.io* was built to enable creators and designers to develop and deliver their carefully crafted devices with a feature rich firmware.  Without the significant software development time/resource investment that entails.
 
 This section will link to third-party external build guides & sites if & when they become available.
 
 In other words, your project goes here :).
 
-# Reference Designs
+# Reference Design Guidelines
 
-In time *AirMeter.io* will provide reference designs for 3D printed enclosures & PCB layouts as a starting point for new device design projects. 
+In time *AirMeter.io* will provide reference designs & guidelines to showcase the ideal (but boring!) design parameters as a starting point to new designs to allow them to hit the ground running.  
 
 # Platform Specific Documentation
-Two families of MCU are supported and others may be added in the future. Click on the family being targeted by your device or development project.
+The two families of MCU that are are supported are ESP32 & ESP8266. Click on the family being targeted by the device or development project.
 
 - [Documentation for ESP32 family devices.](/make/esp32)
 - [Documentation for ESP8266 family devices.](/make/esp8266)

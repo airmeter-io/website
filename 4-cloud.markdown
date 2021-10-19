@@ -11,17 +11,17 @@ breadcrumb:
       name: Build a cloud
 ---
 
-Whilst *AirMeter.io* provides data logging and charting on device this should generally be complimented with publishing data to "the cloud" on a periodic basis. Readings from the sensors are published to remote servers in "the cloud" using the industry standard protocol MQTT.
+*AirMeter.io* provides data logging and charting on device this should generally be accompanied with publishing to "the cloud" on a periodic basis. Readings from the sensors are published to remote servers using the industry standard protocol MQTT.
 
-There are several services which either for free or minimal monthly cost provide MQTT hosting with dashboards. If all the devices being monitored have reliable internet connectivity & privacy isn't a huge concern this can be the easiest option.
+There are several services which are either free or will at a minimal monthly cost provide MQTT hosting with dashboards. If the devices being monitored have strong internet connectivity this can be the easiest option. This option can have privacy issues be sure to consult your chosen service's policies carefully.
 
-It is also however relatively simple to build your own "personal cloud" either using AWS, Azure etc or by just hosting a server on the network to which the *AirMeter.io* monitor devices are connected. For small scale such as a home a Raspberry Pi4 or similar is more than sufficient.
+It is also however relatively simple to build your own "personal cloud" either using AWS, Azure etc or by hosting a server the local the network. For small scale such as a home a Raspberry Pi4 or similar is more than sufficient for this task.
 
-Later this page will be expanded to include detailed instructions. But for now here is a set of components which can be used to build a private "cloud" with MQTT and basic dashboard functionality.
-- [Eclipse Mosquitto](https://mosquitto.org/) - Eclipse Mosquitto an open source MQTT server to which *AirMeter.io* can publish readings.
-- [InfluxDB](https://github.com/influxdata/influxdb) - InfluxDB is an open source time series database in which to store readings published using MQTT.
-- [Telegraf](https://github.com/influxdata/telegraf) - Telegraf is used to connect InfluxDB to the Eclipse Mosquitto server.
-- [Grafana](https://github.com/grafana/grafana) - Grafana is a dashboarding solution that enables the data stored in the InfluxDB to be displayed in a visual & drill down form.
+Later detailed instructions will be included. For now here is a basic set of open source components which can form a private "cloud" with MQTT and basic dashboards.
+- [Eclipse Mosquitto](https://mosquitto.org/) - Eclipse Mosquitto is an open source MQTT server which *AirMeter.io* can publish readings to.
+- [InfluxDB](https://github.com/influxdata/influxdb) - InfluxDB is an open source time series database to store readings published over MQTT.
+- [Telegraf](https://github.com/influxdata/telegraf) - Telegraf is to connect InfluxDB to the Eclipse Mosquitto server.
+- [Grafana](https://github.com/grafana/grafana) - Grafana as a dashboarding solution to visualise the data stored in the InfluxDB in drill down charts.
 
 
 
