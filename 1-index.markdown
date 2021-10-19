@@ -30,3 +30,8 @@ The outside CO2 level away from combustion sources is relatively constant at ~41
 If the CO2 level is too high then ventilation & filtration are the primary approaches to reducing the level of potentially dangerous aerosols. 
 
 # More Information
+
+This project relies directly on a number of open source projects, has learnt from other projects & individuals. The links below attempt a best as is possible to give full credit where it is due.
+- [Open source projects directly used by *AirMeter.io*](/thirdparty-components)
+- [Credits to individuals and projects who contributed their expertise](/credits)
+
