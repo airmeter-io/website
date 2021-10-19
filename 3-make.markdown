@@ -12,17 +12,19 @@ breadcrumb:
       name: Make a Device      
 ---
 
-At its core the AirMeter.io firmware solely needs the supported components to be connected together in one of the supported "configurations". The enclosure, power management and methods of manufacture depend on the individual project. 
+At its core the *AirMeter.io* firmware solely needs the supported components to be connected together in one of the supported "configurations". The enclosure, power management and methods of manufacture depend on the individual project.
 
 # Third-party Build Guides
 
-AirMeter.io is designed to enable makers, designers and manufactures to develop and deliver high quality commercially viable air/CO2 monitoring devices. This section will link to third-party external build guides & sites if & when they become available.
+*AirMeter.io* is designed to enable makers, designers and manufactures to develop and deliver their carefully crafted devices with a high quality feature rich firmware. But without the significant software development time/resource investment that a software package like this entails.
+
+This section will link to third-party external build guides & sites if & when they become available.
 
 In other words, your project goes here :).
 
-# Reference Build Guides
+# Reference Designs
 
-In time AirMeter.io will provide reference designs for 3D printed enclosures & PCB layouts as a starting point for new device design projects. 
+In time *AirMeter.io* will provide reference designs for 3D printed enclosures & PCB layouts as a starting point for new device design projects. 
 
 # Platform Specific Documentation
 Two families of MCU are supported and others may be added in the future. Click on the family being targeted by your device or development project.
