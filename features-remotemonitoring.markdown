@@ -10,6 +10,7 @@ breadcrumb:
     - 
       name: Remote Monitoring    
 ---
+AirMeter.io device can be used as part of a cloud using the MQTT publishing feature. The frequency and target MQTT server are configurable through the Web UI and directly using the REST APIs.
 
 Readings can be published using MQTT to either third-party cloud services or to a server setup to be a dedicated "private/local cloud". MQTT is supported due to its prevalence. Other protocols for publishing readings may be added in future if they would serve a user base.
 

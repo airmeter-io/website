@@ -11,6 +11,7 @@ breadcrumb:
       name: Sensors     
 ---
 
+There is support for multiple families of CO2 sensor. At present this include SenseAir, Cubic & Winsen sensors. Additional Sensor drivers will continue to be added on an ongoing basis.
 
 The support for each sensor has been developed with care and in respect to the manufactures recommendations as far as is possible. Each sensor "driver" exposes functions which the UI layers use to configure and control the sensor. 
 
