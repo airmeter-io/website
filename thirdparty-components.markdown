@@ -3,7 +3,8 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: default
-maintitle: Open source
+maintitle: Open source dependencies
+title: Open source dependencies
 sortOrder: 1
 permalink: /thirdparty-components
 breadcrumb:
@@ -11,12 +12,9 @@ breadcrumb:
       name: Home
       url: /
     - 
-      name: Open source projects used by AirMeter.io
+      name: Open source dependencies
 ---
 
-
-
-# Third party open source projects
 AirMeter.io builds upon the work of a number of other open source projects. These projects along with their primary license are listed on this page. 
 
 Note that especially in the case of the Espressif SDKs some projects draw on other third party works themselves. Please consult the documentation for each project to find all their dependencies.
