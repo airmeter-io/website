@@ -5,6 +5,7 @@
 layout: default
 sortOrder: 1
 permalink: /credits
+title: Credits
 breadcrumb:
     - 
       name: Home
@@ -13,10 +14,10 @@ breadcrumb:
       name: Credits
 ---
 
-- Organisations
+# Organisations
 
 
-- Individuals
+# Individuals
 The table below lists individuals who have contributed there expertise & knowledge and deserve/agree to have that contribution mentioned:
 
 |Name|Website|About|

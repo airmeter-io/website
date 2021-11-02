@@ -3,7 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: default
-title: Open source dependencies
+title: Open Source Projects
 sortOrder: 1
 permalink: /thirdparty-components
 breadcrumb:
@@ -11,7 +11,7 @@ breadcrumb:
       name: Home
       url: /
     - 
-      name: Open source dependencies
+      name: Open Source Projects
 ---
 
 AirMeter.io builds upon the work of a number of other open source projects. These projects along with their primary license are listed on this page. 
