@@ -5,7 +5,7 @@
 layout: default
 maintitle: Open source
 sortOrder: 1
-permalink: /opensource
+permalink: /thirdparty-components
 breadcrumb:
     - 
       name: Home
@@ -24,13 +24,13 @@ Note that especially in the case of the Espressif SDKs some projects draw on oth
 |Project|Author|Website|License|
 |--|--|--|--|
 |ESP-IDF|Espressif|https://github.com/espressif/esp-idf|Apache-2.0 License|
-|ESP8266 RTOS SDK|Espressif|https://github.com/espressif/ESP8266_RTOS_SDK|Apache-2.0 License|
+|ESP8266&#160;RTOS&#160;SDK|Espressif|https://github.com/espressif/ESP8266_RTOS_SDK|Apache-2.0 License|
 |ReactJS|Facebook|https://reactjs.org|MIT|
 |ChartJS|Nick Dawnie|https://www.chartjs.org|MIT|
-|Canvas Gauges|Mykhailo Stadnyk|https:/canvas-gauges.com|MIT|
-|ESP8266-RTOS-SSD1306|urx, Ruslan V. Uss, Zaltora|https://github.com/Fonger/ESP8266-RTOS-SSD1306|MIT|
-|ESP8266-RTOS-FONTS|zaltora|https://github.com/Fonger/ESP8266-RTOS-FONTS|MIT|
-|QRCode|Richard Moore, Project Nayuki|https://github.com/ricmoo/QRCode|MIT|
-|Softuart|Ivan Belokobylskiy, Ruslan V. Uss, Bernhard Guillon|https://github.com/pvvx/esp8266web/blob/master/app/web/captdns.c|MIT|
-|Captivedns|Victor Pvvx||unlicense.org|
+|Canvas&#160;Gauges|Mykhailo Stadnyk|https:/canvas-gauges.com|MIT|
+|ESP8266&#x2011;RTOS&#x2011;SSD1306|urx, Ruslan V. Uss, Zaltora|https://github.com/Fonger/ESP8266-RTOS-SSD1306|MIT|
+|ESP8266&#x2011;RTOS&#x2011;FONTS|zaltora|https://github.com/Fonger/ESP8266-RTOS-FONTS|MIT|
+|QRCode|Richard&#160;Moore, Project&#160;Nayuki|https://github.com/ricmoo/QRCode|MIT|
+|Softuart|Ivan&#160;Belokobylskiy, Ruslan&#160;V.&#160;Uss, Bernhard&#160;Guillon|https://github.com/pvvx/esp8266web/blob/master/app/web/captdns.c|MIT|
+|Captivedns|Victor&#160;Pvvx||unlicense.org|
 
