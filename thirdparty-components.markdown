@@ -16,7 +16,7 @@ breadcrumb:
 
 
 
-- Open source projects
+# Third party open source projects
 AirMeter.io builds upon the work of a number of other open source projects. These projects along with their primary license are listed on this page. 
 
 Note that especially in the case of the Espressif SDKs some projects draw on other third party works themselves. Please consult the documentation for each project to find all their dependencies.
