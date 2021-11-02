@@ -3,7 +3,6 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: default
-maintitle: Open source dependencies
 title: Open source dependencies
 sortOrder: 1
 permalink: /thirdparty-components
