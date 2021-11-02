@@ -3,6 +3,7 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: default
+title: What is AirMeter.io?
 maintitle: Home 
 sortOrder: 1
 permalink: /
@@ -11,14 +12,12 @@ breadcrumb:
       name: Home
 ---
 
-# What is AirMeter.io?
-AirMeter.io is an OpenSource platform for building Internet of Things (IoT) connected CO2 monitors.
 
 ![Landing screen in Web UI](https://i.ibb.co/D9CSpRw/banner.png)
 
-It's standalone responsive Web UI guides the user through through calibration & configuration. The most recent readings are displayed using visually striking gauges and the on-device data logging & charting allows full data history to be history without an internet connection.
+It's responsive Web UI guides the user through through calibration & configuration. The most recent readings are displayed using visually striking gauges and the on-device data logs are made available as charts. 
 
-Equally however an AirMeter.io device can be used as part of a cloud using the MQTT publishing feature. 
+Up to six months of readings can be recorded on the devices flash memory. Equally however an AirMeter.io device can be used as part of a cloud using the MQTT publishing feature. 
 
 The Web UI is built using [ReactJS](https://reactjs.org), [Charts.js](https://www.chartjs.org/)  & [Canvas Gauges](https://canvas-gauges.com/) and simply invokes REST APIs made exposed by the firmware. As the packaged ReactJS app is served from a dedicated partition by the C++ core, it can be replaced entirely with any application written in JavaScript.
 
