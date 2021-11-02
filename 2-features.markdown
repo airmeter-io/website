@@ -10,10 +10,10 @@ breadcrumb:
       
 ---
 
-The AirMeter.io firmware has a rich set of features already developed and more will be added as development progresses. Below you will find a summary of the most important and links to pages with the finer details.
+The AirMeter.io firmware has a rich feature set and more is being added as development progresses. Below you will find a summary of the most important and links to pages with the finer details.
 
 ### [CO2 Sensor Families](/features/sensors)
-There is support for multiple families of CO2 sensor. At present this include SenseAir, Cubic & Winsen sensors. Additional Sensor drivers will continue to be added on an ongoing basis.
+There is support for multiple families of CO2 sensor. At present this include SenseAir, Cubic & Winsen sensors. Additional drivers for different manufactures and models can be added without difficulty assuming the ICs are available to test.
 
 ### [Responsive WebUI](/features/webui)
 The Web UI is built using [ReactJS](https://reactjs.org), [Charts.js](https://www.chartjs.org/)  & [Canvas Gauges](https://canvas-gauges.com/) and simply invokes REST APIs made exposed by the firmware. As the packaged ReactJS app is served from a dedicated partition by the C++ core, it can be replaced entirely with any application written in JavaScript.
