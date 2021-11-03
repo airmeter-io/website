@@ -16,7 +16,7 @@ breadcrumb:
       name: Senseair Sunrise (I2C)
 ---
 
-### Bill of Materials
+### Parts
 
 |Part|Voltage|Protocol|Required|
 |--|--|--|--|

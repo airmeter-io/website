@@ -15,7 +15,7 @@ breadcrumb:
     - 
       name: Cubic CM1107 & CM1106
 ---
-### Bill of Materials
+### Parts
 
 |Part|Voltage|Protocol|Required|
 |--|--|--|--|

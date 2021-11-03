@@ -15,7 +15,7 @@ breadcrumb:
     - 
       name: Senseair Sunrise (UART)
 ---
-### Bill of Materials
+### Parts
 
 |Part|Voltage|Protocol|Required|
 |--|--|--|--|

@@ -15,7 +15,7 @@ breadcrumb:
     - 
       name: Winsen MH-Z19B, MH-Z19C & MH-Z194
 ---
-### Bill of Materials
+### Parts
 
 |Part|Voltage|Protocol|Required|
 |--|--|--|--|
