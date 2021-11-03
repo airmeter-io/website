@@ -22,7 +22,7 @@ The web interface is built using [ReactJS](https://reactjs.org), [Charts.js](htt
 Calibration is very important to maintain accuracy. *AirMeter.io* makes the process of forcing background calibration and configuring ABC (Automatic Background Calibration) a breeze. Wizards are provided to guide users through the required steps.
 
 ### [Device Configuration](/features/configuration)
-All settings including wireless, NTP and data logging can be managed through the Web UI. They can also be set by calling the REST APIs directly.
+All settings including wireless, NTP and data logging can be managed through the web interface. They can also be set by calling the REST APIs directly.
 
 ### [Captive Portal](/features/captiveportal) 
 By default a device boots and starts an access point with a captive portal secured using WPA2 to allow the device to be configured.
@@ -31,7 +31,7 @@ By default a device boots and starts an access point with a captive portal secur
 Up to six months of readings can be recorded in flash memory. The readings can be viewed within the web interface using the charts screen. 
 
 ### [Remote Monitoring](/features/remotemonitoring) 
-*AirMeter.io* device can be used as part of a cloud using the MQTT publishing feature. The frequency and target MQTT server are configurable through the Web UI and directly using the REST APIs.
+*AirMeter.io* device can be used as part of a cloud using the MQTT publishing feature. The frequency and target MQTT server are configurable through the web interface and directly using the REST APIs.
 
 ### [Low Power Mode (Planned)](/features/lowpower)
 Full support for effective low power usage is planned. The initial implementation will be based upon the LilyGo 2.13 ESP32 ePaper board.

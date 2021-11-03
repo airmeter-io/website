@@ -163,7 +163,7 @@ Once the serial port configuration is correct you can flash the device using the
     Leaving...
     Hard resetting via RTS pin...
 
-Finally the Web UI must be flashed to the device which can be achieved as follows:-
+Finally the web interface must be flashed to the device which can be achieved as follows:-
 
 	chmod a+x flash-web-partition.sh
 	./flash-web-partition.sh /dev/ttyUSB5

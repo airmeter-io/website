@@ -13,9 +13,9 @@ breadcrumb:
 ---
 
 
-![Landing screen in Web UI](https://i.ibb.co/D9CSpRw/banner.png)
+![The AirMeter.io web interface](https://i.ibb.co/D9CSpRw/banner.png)
 
-The responsive Web UI guides the user through through calibration & configuration. The most recent readings are displayed using visually striking gauges and the on-device data logs are made available as charts. 
+The responsive web interface guides the user through through calibration & configuration. The most recent readings are displayed using visually striking gauges and the on-device data logs are made available as charts. 
 
 Up to six months of readings can be recorded in flash memory. Equally however an *AirMeter.io* device can be used as part of a cloud using the MQTT publishing feature. 
 

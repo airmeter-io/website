@@ -11,7 +11,7 @@ breadcrumb:
       name: Data Logging
 ---
 
-Up to six months of readings can be recorded in flash memory. The readings can be viewed within the Web UI using the charts screen. 
+Up to six months of readings can be recorded in flash memory. The readings can be viewed within the web interface using the charts screen. 
 
 AirMeter.io is intended to be used as a data logger. Generally up to six months of readings (once every minute including temperature, pressure, humidity & time) can be stored on the device's flash memory.
 

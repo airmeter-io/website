@@ -14,9 +14,9 @@ breadcrumb:
       name: JSON API     
 ---
 
-To deliver the modern Web UI experience the C++ core of the firmware serves a HTML5/JavaScript application using it's inbuilt HTTP server that talks to the device using a JSON API, which is also served from the inbuilt HTTP server on the device. 
+To deliver the modern web interface experience the C++ core of the firmware serves a HTML5/JavaScript application using it's inbuilt HTTP server that talks to the device using a JSON API, which is also served from the inbuilt HTTP server on the device. 
 
-The HTML5/JavaScript application is currently written utilizing the ReactJS framework this any comparable web framework can be utilized, The Web UI can be replaced by simply replacing the contents of the "web" partition with another set of HTML5/JavaScript files which call the JSON API described in this document.
+The HTML5/JavaScript application is currently written utilizing the ReactJS framework this any comparable web framework can be utilized, The web interface can be replaced by simply replacing the contents of the "web" partition with another set of HTML5/JavaScript files which call the JSON API described in this document.
 
 This approach has two advantages. First that it allows customization and "re-skinning" of the user interface without disrupting the core "business logic" of the firmware. Secondly it significantly simplifies the C++ core as that deals only with commands issued through the JSON API.
 
@@ -255,7 +255,7 @@ None
 ## Settings Management
 
 ### LOADSETTINGS
-This command gets the current settings as stored within the configuration partition on the device's flash storage. It is use in conjunction with **SAVESETTINGS**  to implement the settings screen within the Web UI.
+This command gets the current settings as stored within the configuration partition on the device's flash storage. It is use in conjunction with **SAVESETTINGS**  to implement the settings screen within the web interface.
 
 #### Parameters
 None
@@ -291,7 +291,7 @@ None
 	    });;
 
 ### SAVESETTINGS
-This command sets some or all of the device settings. It is use in conjunction with **SAVESETTINGS**  to implement the settings screen within the Web UI.
+This command sets some or all of the device settings. It is use in conjunction with **SAVESETTINGS**  to implement the settings screen within the web interface.
 
 #### Parameters
 The command object sent to this command can have any of the following properties provided. If a property is present then it's value is updated.

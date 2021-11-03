@@ -11,7 +11,7 @@ breadcrumb:
       name: Sensors     
 ---
 
-At present sensors made by *SenseAir*, *Cubic* & *Winsen* are supported by *AirMeter.io*. Additional sensor support will be added as units become available for testing.
+At present sensors made by *Senseair*, *Cubic* & *Winsen* are supported by *AirMeter.io*. Additional sensor support will be added as units become available for testing.
 
 Each sensor "driver" has been developed with particular attention to the manufactures recommendations as far as is possible. Particular attention has been paid to the calibration functions of each sensor. 
 

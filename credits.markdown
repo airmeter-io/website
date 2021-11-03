@@ -22,7 +22,7 @@ The table below lists individuals who have contributed there expertise & knowled
 
 |Name|Website|About|
 |--|--|--|
-|Josep&#160;Comas|https://github.com/jcomas|Josep has and continues to provide invaluable insights & advice drawing on his significant experience with integrating various CO2 sensors into various IoT projects.|
+|Josep&#160;Comas|https://github.com/jcomas|Josep has and continues to provide invaluable insights & advice drawing on his significant experience with integrating various CO2 sensors into IoT projects.|
 |Brendan&#160;Minish|https://github.com/bminish|Brendan has provided assistance on both the electronics & 3D printing aspects of the project. He has also authored a Podman build environment which is available on github.|
 
 

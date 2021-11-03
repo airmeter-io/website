@@ -2,13 +2,13 @@
 layout: default
 sortOrder: 3
 permalink: /features/webui
-title: Responsive Web UI
+title: Responsive Web Interface
 breadcrumb:
     - 
       name: Features
       url: /features
     - 
-      name: Responsive Web UI 
+      name: Responsive Web Interface
 ---
 
 The on-device web interface is built using [ReactJS](https://reactjs.org), [Charts.js](https://www.chartjs.org/)  & [Canvas Gauges](https://canvas-gauges.com/) and simply invokes REST APIs made exposed by the firmware. 
