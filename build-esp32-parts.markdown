@@ -30,7 +30,7 @@ The supported sensors at this time are:
 - Bosch BME280
 - Bosch BMP280
 
-These sensors provides temperature, pressure and humidity readings. It can be substituted with a GY-BMP280 if required. The BME280 is presently in short supply.
+These sensors provides temperature, pressure and humidity readings. It can be substituted with a *GY-BMP280* if required. The *BME280* is presently in short supply.
 
 # Display
 
