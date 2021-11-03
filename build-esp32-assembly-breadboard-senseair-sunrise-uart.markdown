@@ -19,7 +19,7 @@ breadcrumb:
 
 |Part|Voltage|Protocol|
 |--|--|--|
-|2 Mini 400 pin breadboards|-|-|
+|2 Mini Breadboards|-|-|
 |ESP32-WROOM32|5V|-|
 |BME280|3.3V|I2C|
 |SSD1306|3.3V|I2C|
