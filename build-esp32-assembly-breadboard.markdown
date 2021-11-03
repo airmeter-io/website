@@ -13,7 +13,7 @@ breadcrumb:
       name: Breadboard Assembly
 ---
 
-For illustration the build options are explained in terms of being built on a breadboard. This is not recommended except for development and test purposes. 
+For illustration instructions are given in terms of being built on a breadboard. This is not recommended except for development and test purposes. 
 
 As long as the components are connected in same manner any reliable method may be used such a printed PCB or directly soldered wires.
 
