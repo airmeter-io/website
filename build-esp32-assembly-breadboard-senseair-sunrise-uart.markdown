@@ -17,14 +17,21 @@ breadcrumb:
 ---
 ### Bill of Materials
 
-|Part|Voltage|Protocol|
-|--|--|--|
-|2 Mini Breadboards|-|-|
-|ESP32-WROOM32|5V|-|
-|BME280|3.3V|I2C|
-|SSD1306|3.3V|I2C|
-|MB85RC256V|3.3V|I2C|
-|Senseair Sunrise|3.3V|UART|
+|Part|Voltage|Protocol|Required|
+|--|--|--|--|
+|2xMini Breadboard|||Yes|
+|ESP32-WROOM32|5V||Yes|
+|BME280|3.3V|I2C|Yes|
+|SSD1306|3.3V|I2C|Yes|
+|MB85RC256V|3.3V|I2C||
+|Senseair Sunrise|3.3V|UART|Yes|
+
+### Prepare breadboards
+To accommodate the dimensions of CO2 sensor and ESP32-WROOM32 the two breadboard should be clipped together. 
+
+First remove the power rail from one side of each breadboard. Then clip the two boards together so that there are no power rails in the center. Finally place one of the spare power rails that were removed onto the side of the connected boards.
+
+This second power rail will be used as the I2C bus.
 
 ### Use a power rail to connect 3.3V and GND
 Connect a 3.3V (+) pin and GND (-) pin of the ESP32-WROOM32 to an unused power rail +/- pair on the breadboard. 
@@ -47,7 +54,6 @@ Then for each of the components listed below connect the matching SCL and SDA pi
 
 ### Connect the Sunrise sensor using UART
 Connect the RX and TX pins on the CO2 sensor to RX2, TX2 respectively on the ESP32-WROOM32.
-
 
 
 ![Schematic of a this built using two mini breadboards](https://i.ibb.co/B2pkZxP/breadboard-sunrise.png)
