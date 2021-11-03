@@ -48,5 +48,5 @@ Then for each of the components listed below connect the matching SCL and SDA pi
 Connect the RX and TX pins on the CO2 sensor to RX2, TX2 respectively on the ESP32-WROOM32.
 
 
-### Illustration of Breadboard Layout
+
 ![Schematic of a this built using two mini breadboards](https://i.ibb.co/B2pkZxP/breadboard-sunrise.png)
