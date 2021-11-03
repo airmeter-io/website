@@ -4,6 +4,7 @@
 
 layout: default
 maintitle: Build a Cloud
+title: Build a Cloud
 sortOrder: 4
 permalink: /cloud/
 breadcrumb:
