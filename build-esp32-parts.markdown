@@ -44,19 +44,19 @@ The display is used to enable secure WiFi provisioning and to display live readi
 
 ## Senseair Sunrise
 
-The Senseair Sunrise is an excellent sensor and has been a primary focus of testing and development due to its recognised use is premium commercial devices.
+The *Senseair Sunrise* is an excellent sensor and has been a primary focus of testing and development due to its recognised use is premium commercial devices.
 
 This sensor can be connected either via I2C or UART. At present the UART implementation is considered most stable and should be preferred. 
 
 
 ## Cubic CM1107/CM1106
 
-Cubic are reported to produce high quality sensors and AirNeter.io has full support for these sensors. However as all testing has been performed on second hand units AirMeter.io, it is impossible to comment further.
+Cubic are reported to produce high quality sensors and *AirNeter.io* has full support for these sensors. However as all testing has been performed on second hand units AirMeter.io, it is impossible to comment further.
 
 
 ## Winsen MH-Z19B/C & MH-Z14
 
-The Winsen MH-Z19B/C sensors are fully supported and tested "functionally". Results may vary but it is worth noting that:
+The *Winsen MH-Z19B/C* sensors are fully supported and tested "functionally". Results may vary but it is worth noting that:
 - These sensors generally require forced background calibration.
 - Voltage and quality of power supply maybe important.
 
