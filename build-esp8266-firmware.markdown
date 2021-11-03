@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Firmware Build Instructions
+title: Build firmware from source
 permalink: /make/esp8266/firmware_build
 breadcrumb:
     - 
@@ -10,7 +10,7 @@ breadcrumb:
       name: ESP8266
       url: /make/esp8266
     -
-      name: Firmware Build Instructions
+      name: Build firmware from source
 ---
 
 The project is built using the latest 3.4 ESP8266 RTOS SDK that uses an IDF style model. As such in due course porting to the ESP32 platform will be relatively straight forward.

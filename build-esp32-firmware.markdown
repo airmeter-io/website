@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Firmware Build Instructions
+title: Build firmware from source
 permalink: /make/esp32/firmware_build
 breadcrumb:
     - 
@@ -10,7 +10,7 @@ breadcrumb:
       name: ESP32
       url: /make/esp32
     -
-      name: Firmware Build Instructions
+      name: Build firmware from source
 ---
 
 When the AirMeter.io firmware is built for the ESP32 platform it uses the latest v4.3 ESP32 IDF SDK. 
