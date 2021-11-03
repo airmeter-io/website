@@ -15,11 +15,12 @@ breadcrumb:
     - 
       name: Senseair Sunrise (UART)
 ---
-### Bill of Materials (BOM)
+### Bill of Materials
 
 |Part|Voltage|Protocol|
 |--|--|--|
-|ESP32-WROOM32|-|-|
+|2 Mini 400 pin breadboards|-|-|
+|ESP32-WROOM32|5V|-|
 |BME280|3.3V|I2C|
 |SSD1306|3.3V|I2C|
 |MB85RC256V|3.3V|I2C|
