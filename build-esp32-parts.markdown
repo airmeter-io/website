@@ -15,7 +15,7 @@ breadcrumb:
 
 # ESP32 Family Microcontroller
 
-The requirement is an ESP32 Family Microcontroller with at least 4 megabytes of flash memory. The microcontroller can be any of the following:
+The requirement is an *ESP32* Family microcontroller with at least 4 megabytes of flash memory. The microcontroller can be any of the following:
 - EP32
 - ESP32-S2
 - ESP32-C3 
