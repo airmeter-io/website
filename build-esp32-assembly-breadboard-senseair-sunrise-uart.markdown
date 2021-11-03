@@ -26,7 +26,10 @@ breadcrumb:
 |MB85RC256V|3.3V|I2C||
 |Senseair Sunrise|3.3V|UART|Yes|
 
-<img src="https://i.ibb.co/B2pkZxP/breadboard-sunrise.png" height="400" alt="Diagram of AirMeter.io device built on two breadboard using an SenseAir Sunrise"/>
+
+### Diagram
+
+<img src="https://i.ibb.co/B2pkZxP/breadboard-sunrise.png" style="width:auto" height="400" alt="Diagram of AirMeter.io device built on two breadboard using an SenseAir Sunrise"/>
 
 
 ### Prepare breadboards
