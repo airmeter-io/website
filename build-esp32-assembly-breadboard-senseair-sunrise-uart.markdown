@@ -18,7 +18,7 @@ breadcrumb:
 ### Bill of Materials (BOM)
 
 |Part|Voltage|Protocol|
-|--|--|--|--|
+|--|--|--|
 |ESP32-WROOM32|-|-|
 |BME280|3.3V|I2C|
 |SSD1306|3.3V|I2C|
