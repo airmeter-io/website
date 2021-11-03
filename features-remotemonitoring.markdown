@@ -12,8 +12,13 @@ breadcrumb:
 ---
 AirMeter.io device can be used as part of a cloud using the MQTT publishing feature. The frequency and target MQTT server are configurable through the Web UI and directly using the REST APIs.
 
-Readings can be published using MQTT to either third-party cloud services or to a server setup to be a dedicated "private/local cloud". MQTT is supported due to its prevalence. Other protocols for publishing readings may be added in future if they would serve a user base.
+### MQTT
+Readings can be published to either cloud services or to any MQTT server. For relative small setups a Raspberry PI4 with an SD card is more than sufficient.
+ MQTT is supported due to its prevalence. 
 
-The frequency of publishing to the MQTT server can be altered and may be different from the frequency of reading sensor values & writing to the on-device data log.
+Other messaging/publishing protocols may be added in future.
 
-This feature relies on NTP time synchronisation to ensure the datapoints are correctly timestamped.
+### Configuration and time sync
+The frequency of publishing to the MQTT server is configurable and may differ from the sensor reading frequency. 
+
+This feature relies on NTP time synchronisation to ensure the data points are timestamped correctly.

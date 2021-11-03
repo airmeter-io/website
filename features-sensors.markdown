@@ -11,12 +11,21 @@ breadcrumb:
       name: Sensors     
 ---
 
-There is support for multiple families of CO2 sensor. At present this include SenseAir, Cubic & Winsen sensors. Additional Sensor drivers will continue to be added on an ongoing basis.
+At present sensors made by *SenseAir*, *Cubic* & *Winsen* are supported by *AirMeter.io*. Additional sensor support will be added as units become available for testing.
 
-The support for each sensor has been developed with care and in respect to the manufactures recommendations as far as is possible. Each sensor "driver" exposes functions which the UI layers use to configure and control the sensor. 
+Each sensor "driver" has been developed with particular attention to the manufactures recommendations as far as is possible. Particular attention has been paid to the calibration functions of each sensor. 
 
-Presently AirMeter.io supports:
-- [*Senseair*](https://senseair.com) - Senseair Sunrise (UART or I2C).
-- [*Cubic Sensor*](https://www.en.gassensor.com.cn) - CM1107 & CM1106 (UART).
-- [*Sensirion (PLANNED)*](https://www.sensirion.com/en) - SCD30.
-- [*Winsen*](https://www.winsen-sensor.com) - MH-Z19B, MH-Z19C, MH-Z14.
+
+### [Senseair](https://senseair.com)
+The *Senseair Sunrise* sensor has been integrated in both UART and I2C modes. This sensor is found in a number of high end mass produced air monitoring devices. The *Sunrise* is a high quality and low power sensor.
+
+Support for additional *Senseair* sensors is planned in the future.
+
+### [Cubic Sensor](https://en.gassensor.com.cn/)
+The *CM1107* & *CM1106* are both supported by *AirMeter.io* and are reported to be reliable CO2 sensors. These sensors have been hard to obtain therefore second hand sensors were used during development.
+
+### [Winsen](https://www.winsen-sensor.com)
+The *MH-Z19B*, *MH-Z19C*, *MH-Z14* have historically been the easiest and cheapest CO2 sensors to source through Amazon and AliExpress. 
+
+### Planned
+The *SCD30* by [*Sensirion*](https://www.sensirion.com/en) is commonly used in DIY CO2 monitor projects therefore support for this sensor is planned.

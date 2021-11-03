@@ -10,7 +10,7 @@ breadcrumb:
       name: ESP32
 ---
 
-The *ESP32* is one of the two supported platforms it is built upon the *Espressif ESP8266-RTOS-SDK* the following pages provide information on building devices based on this MCU.
+The *ESP32* is a supported platforms this support is built upon the *Espressif ESP8266-RTOS-SDK* the following pages provide information on building devices based on this MCU.
 
 ### [Parts](/make/esp8266/parts) 
 A full list of components which can be used to build an *AirMeter.io* capable device. Some components are to be chosen from a supported set of options and some are entirely discretional.

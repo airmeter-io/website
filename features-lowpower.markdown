@@ -10,11 +10,18 @@ breadcrumb:
     - 
       name: Low Power (Planned)
 ---
-Full support for effective low power usage is planned. The initial implementation will be based upon the LilyGo 2.13 ESP32 ePaper board.
+Full support for effective low power usage is planned for ESP32 family devices.
 
-The planned low power mode will take a number of steps to minimise power consumption:
-- If supported utilise CO2 sensor in "single measurement mode" therefore powering off sensor when not in use.
-- Put BME280/BMP280 sensor into sleep mode after reading.
-- Put microcontroller into deep sleep until next reading, next MQTT publish or a nominated GPIO is triggered.
-- Utilise RTC memory where appropriate.
-- Method and fine tuning of same to enable Wifi. Probably via menu on screen, automatically when USB connected & possibly key press sequence for screenless devices.
+### Initial Platform
+Initially the LilyGo 2.13 ESP32 ePaper board will be used as the development platform for the low power profile.
+
+### Sensor Optimisations
+If supported utilise CO2 sensor in "single measurement mode" therefore powering off sensor when not in use. The BME280/BMP280 sensors support sleep mode which will be utilised.
+
+
+### ESP32 Platform Optimisations
+An option will be added to put  microcontroller into deep sleep between readings, next MQTT publish or a nominated GPIO is triggered. Actions such as connecting & disconnecting a power source will be able to trigger enabling/disabling the web interface.
+
+A combination of RTC memory, wake stubs and ULP will be utilised to achieve low power operation.
+
+The user experience will be considered and introduction of on-device menuing using the connected display is essential in providing a quality experience.

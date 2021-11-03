@@ -11,6 +11,10 @@ breadcrumb:
       name: Responsive Web UI 
 ---
 
-The Web UI is built using [ReactJS](https://reactjs.org), [Charts.js](https://www.chartjs.org/)  & [Canvas Gauges](https://canvas-gauges.com/) and simply invokes REST APIs made exposed by the firmware. As the packaged ReactJS app is served from a dedicated partition by the C++ core, it can be replaced entirely with any application written in JavaScript.
+The on-device web interface is built using [ReactJS](https://reactjs.org), [Charts.js](https://www.chartjs.org/)  & [Canvas Gauges](https://canvas-gauges.com/) and simply invokes REST APIs made exposed by the firmware. 
 
-The available REST APIs are documented [here](/api). These APIs allow full customisation of the Web UI, centralised and automated control of devices using the AirMeter.io firmware.
+### Customisable Web Interface
+As the packaged ReactJS app is served from a dedicated partition by the C++ core, it can be replaced entirely with any application written in JavaScript that calls these REST APIs.
+
+### REST API
+The APIs themselves are documented [here](/api). They can also be used centralised automated control of AirMeter.io devices.

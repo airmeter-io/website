@@ -10,9 +10,11 @@ breadcrumb:
     - 
       name: Captive Portal     
 ---
+At first an *AirMeter.io* device boots and starts an access point with a captive portal (secured using a random WPA2 key) to allow the device to be configured.
 
-By default a device boots and starts an access point with a captive portal secured using WPA2 to allow the device to be configured.
+Onboarding a device onto a Wifi network is achieved by connecting to the device's SSID and random password using a phone or other device. These connection details are displayed on the *AirMeter.io* device's screen.
 
-To "on-board" a device onto a Wifi network by default the AirMeter.io generates an SSID based upon the MAC address of the Wifi adapter and opens an access point. The SSID and a randomly generated password are displayed on the LCD screen.
+When a phone or a laptop connects to this SSID the browser is automatically redirected a captive portal. Through this portal the device Web UI can be accessed and configured to connect to the desired network.
 
-When one connects a phone or a laptop to this network the browser is redirected a captive portal. Through this portal the device Web UI can be accessed.
+Once an *AirMeter.io* device is connected to a wireless network in station mode the captive portal is disabled.
+
