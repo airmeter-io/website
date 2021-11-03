@@ -15,7 +15,7 @@ The ESP32 is one of the two supported platforms it is built upon the Espressif E
 ### [Parts](/make/esp32/parts) 
 A list of required and/or supported parts.
 
-### [Assembly Instructions](/make/esp32/breadboard_assembly)
+### [Assembly Instructions](/make/esp32/assembly)
 Instructions to assemble a development a test device on a breadboard. Note this is not intended for "production" devices.
 
 ### [Build and flash from GIT](/make/esp32/firmware_build) 
