@@ -18,17 +18,17 @@ When the AirMeter.io firmware is built for the ESP32 platform it uses the latest
 
 ## Windows Environment Setup
 
-Espressif provide a Windows package which ensures all the required components are installed. This is the easist way to setup a Windows build environment, the install can be found at [https://dl.espressif.com/dl/esp-idf/?idf=4.4](https://dl.espressif.com/dl/esp-idf/?idf=4.4). Install the v4.3 sdk.
+Espressif provide a Windows package which ensures all the required components are installed. This is the simplest way to setup a Windows build environment, the install can be found at [https://dl.espressif.com/dl/esp-idf/?idf=4.4](https://dl.espressif.com/dl/esp-idf/?idf=4.4). Install the v4.3 sdk.
 
-More indepth instructions and alternative manual installation methods can be found at [https://docs.espressif.com/projects/esp-idf/en/latest/esp32/get-started/windows-setup.html](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/get-started/windows-setup.html).
+More in depth instructions and other installation methods can be found at [https://docs.espressif.com/projects/esp-idf/en/latest/esp32/get-started/windows-setup.html](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/get-started/windows-setup.html).
 
 The remaining instructions in this document assume that the "ESP-IDF CMD" link on the start menu is being used as the CLI to enter commands.
 
 ## Linux Environment Setup
 
-Follow the instructions at [https://docs.espressif.com/projects/esp-idf/en/latest/esp32/get-started/](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/get-started/) and ensure that the user enviroment is set up correctly.
+Follow the instructions at [https://docs.espressif.com/projects/esp-idf/en/latest/esp32/get-started/](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/get-started/) and ensure that the user environment is set up correctly.
 
-The remaining instructions in this document assume that the users shell has the appropriate enviroment variables set and the IDF v4.3 SDK checked out.
+The remaining instructions in this document assume that the users shell has the appropriate environment variables set and the IDF v4.3 SDK checked out.
   
 
 ## Clone & initialise the latest AirMeter.IO Monitor firmware
