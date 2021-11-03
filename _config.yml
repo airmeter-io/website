@@ -18,20 +18,23 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: airmeter.io
+title: AirMeter.io
 email: contact@airmeter.io
 description: >- # this means to ignore newlines until "baseurl:"
   AirMeter.io is an OpenSource platform for building Internet of Things (IoT) connected CO2 monitors.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: airmeterIO
+twitter_username: airmeterio
 github_username:  airmeter-io
+discord_invite: qKW9uZQz5Y
 markdown: GFM
 # Build settings
 remote_theme: airmeter-io/cayman
 google_analytics: G-CN234GMKC4
 plugins:
   - jekyll-feed
+github:
+  repo: airmeter-io/AirMeter.IO.Firmware
 
 # Exclude from processing.
 # The following items will not be processed, by default.
