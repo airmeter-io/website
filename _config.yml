@@ -29,7 +29,7 @@ github_username:  airmeter-io
 markdown: GFM
 # Build settings
 remote_theme: airmeter-io/cayman
-
+google_analytics: G-CN234GMKC4
 plugins:
   - jekyll-feed
 

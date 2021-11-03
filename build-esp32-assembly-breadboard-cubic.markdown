@@ -1,7 +1,7 @@
 ---
 layout: default
 title:  Cubic CM1107 & CM1106
-permalink: /make/esp32/breadboard_assembly/winsen/MHZ1x
+permalink: make/esp32/breadboard_assembly/cubic/CM110x-uart
 breadcrumb:
     - 
       name: Make a Device
