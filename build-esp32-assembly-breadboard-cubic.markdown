@@ -1,7 +1,7 @@
 ---
 layout: default
 title:  Cubic CM1107 & CM1106
-permalink: make/esp32/breadboard_assembly/cubic/CM110x-uart
+permalink: make/esp32/assembly/cubic/CM110x-uart
 breadcrumb:
     - 
       name: Make a Device
@@ -10,8 +10,8 @@ breadcrumb:
       name: ESP32
       url: /make/esp32
     -
-      name: Breadboard Assembly
-      url: /make/esp32/breadboard_assembly
+      name: Assembly
+      url: /make/esp32/assembly
     - 
       name: Cubic CM1107 & CM1106
 ---

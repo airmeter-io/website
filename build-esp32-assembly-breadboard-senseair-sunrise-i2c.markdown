@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Senseair Sunrise (I2C)
-permalink: /make/esp32/breadboard_assembly/senseair/sunrise-i2c
+permalink: /make/esp32/assembly/senseair/sunrise-i2c
 breadcrumb:
     - 
       name: Make a Device
@@ -10,8 +10,8 @@ breadcrumb:
       name: ESP32
       url: /make/esp32
     -
-      name: Breadboard Assembly
-      url: /make/esp32/breadboard_assembly
+      name: Assembly
+      url: /make/esp32/assembly
     - 
       name: Senseair Sunrise (I2C)
 ---

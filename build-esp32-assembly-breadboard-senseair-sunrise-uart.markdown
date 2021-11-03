@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Senseair Sunrise (UART)
-permalink: /make/esp32/breadboard_assembly/senseair/sunrise-uart
+permalink: /make/esp32/assembly/senseair/sunrise-uart
 breadcrumb:
     - 
       name: Make a Device
@@ -11,7 +11,7 @@ breadcrumb:
       url: /make/esp32
     -
       name: Breadboard Assembly
-      url: /make/esp32/breadboard_assembly
+      url: /make/esp32/assembly
     - 
       name: Senseair Sunrise (UART)
 ---

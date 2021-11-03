@@ -1,7 +1,7 @@
 ---
 layout: default
 title:  Winsen MH-Z19B, MH-Z19C & MH-Z194
-permalink: /make/esp32/breadboard_assembly/winsen/MHZ1x
+permalink: /make/esp32/assembly/winsen/MHZ1x
 breadcrumb:
     - 
       name: Make a Device
@@ -10,8 +10,8 @@ breadcrumb:
       name: ESP32
       url: /make/esp32
     -
-      name: Breadboard Assembly
-      url: /make/esp32/breadboard_assembly
+      name: Assembly
+      url: /make/esp32/assembly
     - 
       name: Winsen MH-Z19B, MH-Z19C & MH-Z194
 ---
