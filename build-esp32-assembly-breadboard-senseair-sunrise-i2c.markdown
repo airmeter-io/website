@@ -16,12 +16,50 @@ breadcrumb:
       name: Senseair Sunrise (I2C)
 ---
 
-### I2C with the 3.3V Senseair Sunrise sensor
+### Bill of Materials
 
-All components in this build using 3.3V so so first connect a 3.3V (+) pin and ground (-) pin of the ESP32-WROOM32 to a power rail +/- pair on the breadboard. Then proceed to connect the matching VCC (+) and ground (-) pins on both the BME280, SSD1306 display, MB85RC256V FRAM (optional) and Senseair Sunrise to the matching power rail in the pair just connected to the ESP32-WROOM32.
+|Part|Voltage|Protocol|Required|
+|--|--|--|--|
+|2xMini Breadboard|||Yes|
+|ESP32-WROOM32|5V||Yes|
+|BME280|3.3V|I2C|Yes|
+|SSD1306|3.3V|I2C|Yes|
+|MB85RC256V|3.3V|I2C||
+|Senseair Sunrise|3.3V|UART|Yes|
 
-Next nominate another different power rail pair as an I2C bus. Connect D22 (SCL) on the ESP32-WROOM32 to the first rail in the pair and then connect D21 (SDA) to the second rail in the pair. Then for the BME280, SSD1306 display, MB85RC256V FRAM (optional) and Senseair Sunrise connect the matching SCL and SDA pins to the matching rails you just connected the corresponding pins on the ESP32-WROOM32.
 
-Do NOT connect the VV (5V from USB) pin on the ESP32-WROOM32 to anything.
+### Diagram
 
-![Schematic of a this built using two mini breadboards](https://i.ibb.co/B2pkZxP/breadboard-sunrise.png)
+<img src="https://i.ibb.co/B2pkZxP/breadboard-sunrise.png" style="width:auto" height="400" alt="Diagram of AirMeter.io device built on two breadboards using an SenseAir Sunrise"/>
+
+
+### Prepare the breadboards
+To accommodate the dimensions of CO2 sensor and ESP32-WROOM32 the two breadboards can be clipped together. 
+
+First remove the power rail from one side of each breadboard. Then clip the two boards together so that there are no power rails in the center. 
+
+Finally place one of the spare power rails that were removed onto the side of the connected boards. This second power rail will be used as the I2C bus.
+
+### Use a power rail to connect 3.3V and GND
+Connect a 3.3V (+) pin and GND (-) pin of the ESP32-WROOM32 to an unused power rail +/- pair on the breadboard. 
+
+Next connect the matching VCC (3.3V) and GND (-) pins on the components listed below to the matching rail which is connected to the ESP32-WROOM32:
+- BME280
+- SSD1306 display
+- MB85RC256V FRAM (optional)
+- Senseair Sunrise
+
+### Use a another power rail as an I2C bus
+Nominate a second power rail pair to use as an I2C bus. 
+
+Connect D22 (SCL) on the ESP32-WROOM32 to one rail in the pair and then connect D21 (SDA) to the other. 
+
+Then for each of the components listed below connect the matching SCL and SDA pins to the matching rail connected the corresponding pins on the ESP32-WROOM32:
+- BME280
+- SSD1306 display
+- MB85RC256V FRAM (optional) 
+- Senseair Sunrise
+
+
+
+

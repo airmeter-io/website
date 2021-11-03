@@ -29,10 +29,10 @@ breadcrumb:
 
 ### Diagram
 
-<img src="https://i.ibb.co/B2pkZxP/breadboard-sunrise.png" style="width:auto" height="400" alt="Diagram of AirMeter.io device built on two breadboard using an SenseAir Sunrise"/>
+<img src="https://i.ibb.co/B2pkZxP/breadboard-sunrise.png" style="width:auto" height="400" alt="Diagram of AirMeter.io device built on two breadboards using an SenseAir Sunrise"/>
 
 
-### Prepare breadboards
+### Prepare the breadboards
 To accommodate the dimensions of CO2 sensor and ESP32-WROOM32 the two breadboards can be clipped together. 
 
 First remove the power rail from one side of each breadboard. Then clip the two boards together so that there are no power rails in the center. 
