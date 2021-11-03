@@ -27,11 +27,11 @@ breadcrumb:
 |Senseair Sunrise|3.3V|UART|Yes|
 
 ### Prepare breadboards
-To accommodate the dimensions of CO2 sensor and ESP32-WROOM32 the two breadboard should be clipped together. 
+To accommodate the dimensions of CO2 sensor and ESP32-WROOM32 the two breadboards can be clipped together. 
 
-First remove the power rail from one side of each breadboard. Then clip the two boards together so that there are no power rails in the center. Finally place one of the spare power rails that were removed onto the side of the connected boards.
+First remove the power rail from one side of each breadboard. Then clip the two boards together so that there are no power rails in the center. 
 
-This second power rail will be used as the I2C bus.
+Finally place one of the spare power rails that were removed onto the side of the connected boards. This second power rail will be used as the I2C bus.
 
 ### Use a power rail to connect 3.3V and GND
 Connect a 3.3V (+) pin and GND (-) pin of the ESP32-WROOM32 to an unused power rail +/- pair on the breadboard. 
