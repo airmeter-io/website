@@ -26,6 +26,8 @@ breadcrumb:
 |MB85RC256V|3.3V|I2C||
 |Senseair Sunrise|3.3V|UART|Yes|
 
+![Diagram of AirMeter.io device built on two breadboard using an SenseAir Sunrise](https://i.ibb.co/B2pkZxP/breadboard-sunrise.png)
+
 ### Prepare breadboards
 To accommodate the dimensions of CO2 sensor and ESP32-WROOM32 the two breadboards can be clipped together. 
 
@@ -56,4 +58,4 @@ Then for each of the components listed below connect the matching SCL and SDA pi
 Connect the RX and TX pins on the CO2 sensor to RX2, TX2 respectively on the ESP32-WROOM32.
 
 
-![Schematic of a this built using two mini breadboards](https://i.ibb.co/B2pkZxP/breadboard-sunrise.png)
+
