@@ -10,7 +10,7 @@ breadcrumb:
       name: ESP32
       url: /make/esp32
     -
-      name: Breadboard Assembly
+      name: Assembly
       url: /make/esp32/assembly
     - 
       name: Senseair Sunrise (UART)

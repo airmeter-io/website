@@ -1,6 +1,6 @@
 ---
 layout: default
-title: ESP32 Based Device
+title: ESP32 Based Devices
 permalink: /make/esp32/
 breadcrumb:
     - 
