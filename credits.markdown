@@ -18,7 +18,7 @@ breadcrumb:
 
 
 # Individuals
-The table below lists individuals who have contributed there expertise & knowledge and deserve/agree to have that contribution mentioned:
+The table below lists some of the individuals who have contributed there expertise & knowledge throughout the development of *AirMeter.io*:
 
 |Name |Website |About |
 |:--|:--|:--|
