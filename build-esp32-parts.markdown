@@ -60,12 +60,8 @@ The *Winsen MH-Z19B/C* sensors are fully supported and tested "functionally". Re
 - These sensors generally require forced background calibration.
 - Voltage and quality of power supply maybe important.
 
-The MH-Z14 sensor has been lightly tested but has not been deeply investigated and tested.
+The MH-Z14 sensor has been lightly tested in an extremely limited fashion.
 
-# FRAM datalogging storage (Optional)
-An FRAM module for persistent data staging before writing to flash can be included connected to the I2C bus. Without this component any data that is not written to the flash will be lost. To prevent undue wear on the flash the firmware has to wait until there are quite a number of readings waiting to be written.
-
-For builds where data logging is important this is an essential component.
 
 # Enclosure and Electrical Connections
 Breadboards are useful for experimental builds. An alternative such as soldering to a PCB or just jumper leads is also effective and more appropriate for long term use devices.

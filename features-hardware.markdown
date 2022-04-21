@@ -33,12 +33,19 @@ The supported sensors at this time are:
 These sensors provides temperature, pressure and humidity readings. It can be substituted with a *GY-BMP280* if required. The *BME280* is presently in short supply.
 
 ### Display
+The display is used to enable secure WiFi provisioning, display live readings and provide on-device menus.
 
-The supported display is an SSD1306 connected via I2C. 
+#### SSD1680 driven ePaper 
+ePaper is an excellent choice for battery operated devices that are used in varied light conditions as it is low power and a reflective display technology.
 
-*Support for ST7735 & ST7789 is planned as a priority*
+At present *AirMeter.io* supports the following SSD1680 driven ePaper displays, others will be added in time:
+- DEPG0213BN
 
-The display is used to enable secure WiFi provisioning and to display live readings. 
+The LilyGo 2.13 ESP32 ePaper Display board can be used an excellent based for an *AirMeter.io* device and includes a supported display, battery charging hardware and an mini SD card reader.
+
+
+#### SSD1306 128x64 OLED/LCD
+This is a cheap and easily sourced display that can be connected via I2C. Whilst limited in size it is sufficient to display readings.
 
 ### CO2 Sensor
 
@@ -48,26 +55,37 @@ The *Senseair Sunrise* is an excellent sensor and has been a primary focus of te
 
 This sensor can be connected either via I2C or UART. At present the UART implementation is considered most stable and should be preferred. 
 
+It is Grade A 3.3v sensor suitable for battery operated devices.
+
+#### Sensirion SCD30
+The *SCD30* has been popular in many existing DIY CO2 sensor projects. Therefore *AirMeter.IO* provides full support for this sensor operating over I2C.
+
+It is a 3.3v sensor suitable for battery operated devices.
 
 #### Cubic CM1107/CM1106
-
 Cubic are reported to produce high quality sensors and *AirNeter.io* has full support for these sensors. However as all testing has been performed on second hand units AirMeter.io, it is impossible to comment further.
 
 
 #### Winsen MH-Z19B/C & MH-Z14
-
 The *Winsen MH-Z19B/C* sensors are fully supported and tested "functionally". Results may vary but it is worth noting that:
 - These sensors generally require forced background calibration.
 - Voltage and quality of power supply maybe important.
 
 The MH-Z14 sensor has been lightly tested but has not been deeply investigated and tested.
 
-### FRAM datalogging storage (Optional)
-An FRAM module for persistent data staging before writing to flash can be included connected to the I2C bus. Without this component any data that is not written to the flash will be lost. To prevent undue wear on the flash the firmware has to wait until there are quite a number of readings waiting to be written.
+### Battery (Strongly Recommended)
+Using an ESP32 or ESP8266 board with battery/power management support is preferable as then it allows the inclusion of a lithium ion battery which achieves two important things:
+- Device portability as it does not need to be tethered to a power source.
+- Reliable power ensuring readings are not missed which adds utility even where portability is not required.
 
-For builds where data logging is important this is an essential component.
+It is possible to build your owner battery/power management circuitry if you have the appropriate skills/knowhow but the easiest method is to purchase a board with this built in.
+
 
 ### Enclosure and Electrical Connections
-Breadboards are useful for experimental builds. An alternative such as soldering to a PCB or just jumper leads is also effective and more appropriate for long term use devices.
+Within the build section examples are given with 3D printable parts showing how to soldier and assemble fully functional battery operated portable devices. 
 
-However for simplicity the assembly instructions assume breadboard are being used. Each build requires two mini-breadboards to be able to access all the relevant pins on the components.
+If you are designing your own device then generally speaking one must ensure that:
+- Electrical connections are competently soldiered.
+- Sensor manufacturer guidelines relating to clearances and mounting are followed.
+- Power is suitably managed either by an off the shelf board or otherwise. This may be a particular challenge if using 5V sensors.
+

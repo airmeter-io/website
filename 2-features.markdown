@@ -12,8 +12,11 @@ breadcrumb:
 
 The AirMeter.io firmware has a rich feature set to which more is being added regularly. Below you will find a summary of the most important and links to pages describing the features in detail.
 
+### [Low Power Operation](/features/lowpower)
+*AirMeter.io* has been optimised for low power battery operation using power profiling equipment to achieve extremely low power consumption on the ESP32 family of microcontrollers. 
+
 ### [CO2 Sensor Families](/features/sensors)
-There is support for multiple families of CO2 sensor. At present this include *SenseAir*, *Cubic* & *Winsen* sensors. Additional drivers for different manufactures and models can be added without difficulty assuming the ICs are available to test.
+There is support for multiple families of CO2 sensor. At present this include *Senseair*, *Cubic*, *Sensirion* & *Winsen* sensors. Additional drivers for different manufactures and models will be added in time.
 
 ### [Responsive Web Interface](/features/webui)
 The web interface is built using [ReactJS](https://reactjs.org), [Charts.js](https://www.chartjs.org/)  & [Canvas Gauges](https://canvas-gauges.com/) and simply invokes REST APIs made exposed by the firmware. As the packaged ReactJS app is served from a dedicated partition by the C++ core, it can be replaced entirely with any application written in JavaScript.
@@ -32,9 +35,6 @@ Up to six months of readings can be recorded in flash memory. The readings can b
 
 ### [Remote Monitoring](/features/remotemonitoring) 
 *AirMeter.io* device can be used as part of a cloud using the MQTT publishing feature. The frequency and target MQTT server are configurable through the web interface and directly using the REST APIs.
-
-### [Low Power Mode (Planned)](/features/lowpower)
-Full support for effective low power usage is planned. The initial implementation will be based upon the LilyGo 2.13 ESP32 ePaper board.
 
 ### [Hardware](/features/hardware) 
 ESP32 & ESP8266 family MCUs made by Espressif can be used as the platform on which the build a device. Both chip families have a wide range of boards available in different form factors and bundled peripheral components.
