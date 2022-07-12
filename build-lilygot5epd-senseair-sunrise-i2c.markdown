@@ -27,16 +27,16 @@ Once completed this part will appear in as shown in the image below.
 
 ### Parts
 
-|Part|Description|Quantity|
-|--|--|--|
-|22402A-17|3cm x 7cm double sided universal PCB|1|
-|006-0-0007|Senseair Sunrise CO2 sensor|1|
-|BME280-5V|BME280 breakout board the 4 pin version which is usually labeled as supporting 5v due to the regulator used|1|
+|Part|Description|
+|--|--|
+|22402A-17|3cm x 7cm double sided universal PCB|
+|006-0-0007|Senseair Sunrise CO2 sensor|
+|BME280-5V|BME280 breakout board the 4 pin version which is usually labeled as supporting 5v due to the regulator used|
 |2.54mm socket|4 Way 1 Row Straight PCB Socket 
-Through Hole|2|
-|2.54mm socket|5 Way 1 Row Straight PCB Socket 
-Through Hole|1|
-|2.54mm pin header|8 Way, 1 Row, Right Angle Pin Header|1|
+Through Hole|
+|2.54mm pin header|4 Way, 1 row, straight pin header 
+|2.54mm pin header|5 Way, 1 row, straight pin header 
+|2.54mm pin header|8 Way, 1 row, right angle pin header|
 |Wire|Six colors of wire.|
 
 ### Wire Colors
@@ -57,10 +57,10 @@ Through Hole|1|
 
 Get the following parts ready before starting this step.
 
-|Part|Description|Quantity|
-|--|--|--|
-|22402A-17|3cm x 7cm double sided universal PCB|1|
-|2.54mm pin header|8 Way, 1 Row, Right Angle Pin Header|1|
+|Part|Description|
+|--|--|
+|22402A-17|3cm x 7cm double sided universal PCB|
+|2.54mm pin header|8 Way, 1 row, right angle pin header|
 
 <img src="/buildimages/v1.0/sunrise-step1-parts.jpg" style="width:auto" height="400" alt="Parts required for step 1 of assembly"/>
 
@@ -75,55 +75,73 @@ After completing this step the PCB should appear as in the the image below.
 
 Get the following parts ready before starting this step.
 
-|Part|Description|Quantity|
-|--|--|--|
-|22402A-17|3cm x 7cm double sided universal PCB|1|
-|2.54mm socket|4 Way 1 Row Straight PCB Socket 
-Through Hole|1|
+|Part|Description|
+|--|--|
+|22402A-17|3cm x 7cm double sided universal PCB|
+|2.54mm socket|4 Way 1 Row Straight PCB Socket Through Hole|
+
 
 <img src="/buildimages/v1.0/sunrise-step2-parts.jpg" style="width:auto" height="354" alt="Parts required for step 2 of assembly"/>
 
-Orientate the PCB so that the PIN header is underneith and on the right hand side. 
+<ol>
+<li>Orientate the PCB so that the PIN header is underneith and on the right hand side. </li>
 
-At the bottom and six holes in from the right of the PCB mount the 4 way socket using solder.
+<li>At the bottom and six holes in from the right of the PCB mount the 4 way socket using solder.</li>
+</ol>
 
 The PCB will appear as shown in the image below when this step is completed.
 
 <img src="/buildimages/v1.0/sunrise-step2-output.jpg" style="width:auto" height="400" alt="PCB after step 2 has been completed"/>
 
+#### Step 3 - Mounting CO2 Sensor pin headers
 
-### Diagram
+Get the following parts ready before starting this step.
 
-<img src="https://i.ibb.co/B2pkZxP/breadboard-sunrise.png" style="width:auto" height="400" alt="Diagram of AirMeter.io device built on two breadboards using an SenseAir Sunrise"/>
+|Part|Description|
+|--|--|
+|22402A-17|3cm x 7cm double sided universal PCB|
+|2.54mm pin header|4 Way, 1 row, straight pin header 
+|2.54mm pin header|5 Way, 1 row, straight pin header 
 
+The pin headers need to be adjusted so that the minimum length extrudes from the rear of the PCB. The pins will stick out on the PCB side to which the sensor is attached.
 
-### Prepare the breadboards
-To accommodate the dimensions of CO2 sensor and ESP32-WROOM32 the two breadboards can be clipped together. 
+This is important to allow the PCB to fit within the case.
 
-First remove the power rail from one side of each breadboard. Then clip the two boards together so that there are no power rails in the center. 
+The following image shows adjusted pin headers on the left and the original position of the plastic spacer on the right.
 
-Finally place one of the spare power rails that were removed onto the side of the connected boards. This second power rail will be used as the I2C bus.
-
-### Use a power rail to connect 3.3V and GND
-Connect a 3.3V (+) pin and GND (-) pin of the ESP32-WROOM32 to an unused power rail +/- pair on the breadboard. 
-
-Next connect the matching VCC (3.3V) and GND (-) pins on the components listed below to the matching rail which is connected to the ESP32-WROOM32:
-- BME280
-- SSD1306 display
-- MB85RC256V FRAM (optional)
-- Senseair Sunrise
-
-### Use a another power rail as an I2C bus
-Nominate a second power rail pair to use as an I2C bus. 
-
-Connect D22 (SCL) on the ESP32-WROOM32 to one rail in the pair and then connect D21 (SDA) to the other. 
-
-Then for each of the components listed below connect the matching SCL and SDA pins to the matching rail connected the corresponding pins on the ESP32-WROOM32:
-- BME280
-- SSD1306 display
-- MB85RC256V FRAM (optional) 
-- Senseair Sunrise
+<img src="/buildimages/v1.0/sunrise-step3-parts.jpg" style="width:auto" height="354" alt="Parts required for step 2 of assembly"/>
 
 
 
+<ol>
+<li>Orientate the PCB so that the 8 way right angle PIN header is underneith and on the right hand thin side. 
+<br/>
+The PCB socket attached in the previous step will be on the side facing upwards.</li>
+<li>
+Solder the 5 way pin header on the left hand (thin) side with one hole separating it from the bottom of the PCB.
+</li>
+<li>
+Solder the 4 way pin header 13 holes from the left hand (thin) side with two holes separating it from the bottom of the PCB.
+</li>
+</ol>
 
+The PCB will appear as shown in the image below when this step is completed.
+
+<img src="/buildimages/v1.0/sunrise-step3-output.jpg" style="width:auto" height="400" alt="PCB after step 2 has been completed"/>
+
+#### Step 4 - Attach Sunrise CO2 Sensor
+
+Get the following parts ready before starting this step.
+
+|Part|Description|
+|--|--|
+|22402A-17|3cm x 7cm double sided universal PCB|
+|006-0-0007|Senseair Sunrise CO2 sensor|
+
+Place the Senseair Sunrise CO2 sensor on the pins attached in the previous step. The pins must align exactly with the Senseair Sunrise PCB if they don't the previous step was not completed correctly.
+
+<img src="/buildimages/v1.0/sunrise-step4-parts.jpg" style="width:auto" height="354" alt="Parts required for step 2 of assembly"/>
+
+Solder each of the pin headers to the Senseair Sunrise sensor PCB. The PCB will appear as shown in the image below when this step is completed.
+
+<img src="/buildimages/v1.0/sunrise-step4-output.jpg" style="width:auto" height="400" alt="PCB after step 2 has been completed"/>
