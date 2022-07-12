@@ -21,7 +21,7 @@ breadcrumb:
 This page describes how to build the Sensor Assembly for a Senseair Sunrise CO2 sensor. This board connects to a LilyGO 2.13in EPD displayboard via a right angle pin header mounted on the board.
 
 Once completed this part will appear in as shown in the image below.
-<img src="buildimages/v1.0/sunrise-finished-top.jpg" style="width:auto" height="324" alt="Completed Sensor Assembly for a Senseair Sunrise CO2 sensor"/>
+<img src="/buildimages/v1.0/sunrise-finished-top.jpg" style="width:auto" height="324" alt="Completed Sensor Assembly for a Senseair Sunrise CO2 sensor"/>
 
 
 
@@ -62,14 +62,34 @@ Get the following parts ready before starting this step.
 |22402A-17|3cm x 7cm double sided universal PCB|1|
 |2.54mm pin header|8 Way, 1 Row, Right Angle Pin Header|1|
 
-<img src="https://i.ibb.co/B2pkZxP/breadboard-sunrise.png" style="width:auto" height="400" alt="Diagram of AirMeter.io device built on two breadboards using an SenseAir Sunrise"/>
+<img src="/buildimages/v1.0/sunrise-step1-parts.jpg" style="width:auto" height="400" alt="Parts required for step 1 of assembly"/>
 
 At one thin (10 holes/3cm wide) end of the PCB attach the pin header to the PCB using solder. The pins must face inwards towards the other thin end of the PCB. 
 
 After completing this step the PCB should appear as in the the image below.
 
-<img src="https://i.ibb.co/B2pkZxP/breadboard-sunrise.png" style="width:auto" height="400" alt="Diagram of AirMeter.io device built on two breadboards using an SenseAir Sunrise"/>
+<img src="/buildimages/v1.0/sunrise-step1-output.jpg" style="width:auto" height="400" alt="PCB after step 1 has been completed"/>
 
+
+#### Step 2 - Attach 4 way PCB Socket for BME280 board
+
+Get the following parts ready before starting this step.
+
+|Part|Description|Quantity|
+|--|--|--|
+|22402A-17|3cm x 7cm double sided universal PCB|1|
+|2.54mm socket|4 Way 1 Row Straight PCB Socket 
+Through Hole|1|
+
+<img src="/buildimages/v1.0/sunrise-step2-parts.jpg" style="width:auto" height="354" alt="Parts required for step 2 of assembly"/>
+
+Orientate the PCB so that the PIN header is underneith and on the right hand side. 
+
+At the bottom and six holes in from the right of the PCB mount the 4 way socket using solder.
+
+The PCB will appear as shown in the image below when this step is completed.
+
+<img src="/buildimages/v1.0/sunrise-step2-output.jpg" style="width:auto" height="400" alt="PCB after step 2 has been completed"/>
 
 
 ### Diagram
