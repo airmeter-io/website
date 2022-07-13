@@ -16,7 +16,7 @@ breadcrumb:
       name: Senseair Sunrise (I2C)
 ---
 
-### Overview
+## Overview
 
 This page describes how to build the Sensor Assembly for a Senseair Sunrise CO2 sensor. This board connects to a LilyGO 2.13in EPD displayboard via a right angle pin header mounted on the board.
 
@@ -25,7 +25,7 @@ Once completed this part will appear in as shown in the image below.
 
 
 
-### Parts
+## Parts
 
 |Part|Description|
 |--|--|
@@ -39,7 +39,7 @@ Through Hole|
 |2.54mm pin header|8 Way, 1 row, right angle pin header|
 |Wire|Six colors of wire.|
 
-### Wire Colors
+## Wire Colors
 
 |Color|Purpose|
 |--|--|
@@ -51,9 +51,9 @@ Through Hole|
 |Yellow|Enable Sensor|
 
 
-### Build Steps 
+## Build Steps 
 
-#### Step 1 - Attach the 8 way right angle pin header
+### Step 1 - Attach the 8 way right angle pin header
 
 Get the following parts ready before starting this step.
 
@@ -71,7 +71,7 @@ After completing this step the PCB should appear as in the the image below.
 <img src="/buildimages/v1.0/sunrise-step1-output.jpg" style="width:auto" height="400" alt="PCB after step 1 has been completed"/>
 
 
-#### Step 2 - Attach 4 way PCB Socket for BME280 board
+### Step 2 - Attach 4 way PCB Socket for BME280 board
 
 Get the following parts ready before starting this step.
 
@@ -93,7 +93,7 @@ The PCB will appear as shown in the image below when this step is completed.
 
 <img src="/buildimages/v1.0/sunrise-step2-output.jpg" style="width:auto" height="400" alt="PCB after step 2 has been completed"/>
 
-#### Step 3 - Mounting CO2 Sensor pin headers
+### Step 3 - Mounting CO2 Sensor pin headers
 
 Get the following parts ready before starting this step.
 
@@ -129,7 +129,7 @@ The PCB will appear as shown in the image below when this step is completed.
 
 <img src="/buildimages/v1.0/sunrise-step3-output.jpg" style="width:auto" height="400" alt="PCB after step 2 has been completed"/>
 
-#### Step 4 - Attach Sunrise CO2 Sensor
+### Step 4 - Attach Sunrise CO2 Sensor
 
 Get the following parts ready before starting this step.
 
@@ -145,3 +145,53 @@ Place the Senseair Sunrise CO2 sensor on the pins attached in the previous step.
 Solder each of the pin headers to the Senseair Sunrise sensor PCB. The PCB will appear as shown in the image below when this step is completed.
 
 <img src="/buildimages/v1.0/sunrise-step4-output.jpg" style="width:auto" height="400" alt="PCB after step 2 has been completed"/>
+
+### Step 4 - Attach Sunrise CO2 Sensor
+
+Get the following parts ready before starting this step.
+
+|Part|Description|
+|--|--|
+|22402A-17|3cm x 7cm double sided universal PCB|
+|006-0-0007|Senseair Sunrise CO2 sensor|
+
+Place the Senseair Sunrise CO2 sensor on the pins attached in the previous step. The pins must align exactly with the Senseair Sunrise PCB if they don't the previous step was not completed correctly.
+
+<img src="/buildimages/v1.0/sunrise-step4-parts.jpg" style="width:auto" height="354" alt="Parts required for step 2 of assembly"/>
+
+Solder each of the pin headers to the Senseair Sunrise sensor PCB. The PCB will appear as shown in the image below when this step is completed.
+
+<img src="/buildimages/v1.0/sunrise-step4-output.jpg" style="width:auto" height="400" alt="PCB after step 2 has been completed"/>
+
+
+### Step 5 - Wire 3.3V VIN (Red wire)
+
+Get the following parts ready before starting this step.
+
+|Part|Description|
+|--|--|
+|22402A-17|3cm x 7cm double sided universal PCB|
+|Wire|Red wire|
+
+Place the PCB so that the CO2 sensor & BME280 socket are on the side facing upwards. Orienate it so that the BME280 socket is on the bottom side and the 8way header pins are on the left (actual pin connectors on the underside).
+
+Solder a piece of red wire to pin 2 on the 8 way right angle connector whos pins are on the right hand side. See image below.
+<img src="/buildimages/v1.0/sunrise-step5-a.jpg" style="width:auto" height="354" alt="Connection from pin 2 of 8 way for VIN"/>
+
+Cut the wire and orientate it in the manner shown in the image below. The end of the wire should be stripped to a length which allows it to pass through the hole above the left hole on the BME280 socket and touch the left BME280 socket pin on the otherside of the PCB.
+
+<img src="/buildimages/v1.0/sunrise-step5-b.jpg" style="width:auto" height="354" alt="Connection from pin 2 of 8 way to hole beside BME280 VIN pin with wire pushed through hole"/>
+
+Turn the PCB over and ensure the BME280 socket pins are on the bottom side. The 8 way right angle connector will be on the left hand side.
+
+Attach a piece of red wire to the two pins three up from the bottom of the PCB on the far right hand side. See the image below.
+
+<img src="/buildimages/v1.0/sunrise-step5-c.jpg" style="width:auto" height="354" alt="Connection from pin 2 of 8 way to hole beside BME280 VIN pin with wire pushed through hole"/>
+
+Shorten and strip the wire so that it can connect with the wire coming from the other side of board and the right hand BME280 socket pin.
+
+Solder the pin and the two wires together. The result should look similar to the image below.
+
+<img src="/buildimages/v1.0/sunrise-step5-d.jpg" style="width:auto" height="354" alt="Connection from pin 2 of 8 way to hole beside BME280 VIN pin with wire pushed through hole"/>
+
+
