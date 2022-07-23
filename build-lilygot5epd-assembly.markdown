@@ -38,7 +38,7 @@ The casing for the CO2 monitor is printed using a 3D printer. The models are ava
 
 ## Step 1 - Assembling the Front & Back
 
-<img src="/buildimages/v1.0/assembled.png" style="width:auto" alt="Both halves of a CO2 monitor assembled."/>
+<img src="/buildimages/v1.0/assembled.jpg" style="width:auto" alt="Both halves of a CO2 monitor assembled."/>
 
 ## The Front
 
