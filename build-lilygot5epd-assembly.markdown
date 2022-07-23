@@ -1,16 +1,16 @@
 ---
 layout: default
-title: Senseair Sunrise Sensor Assembly
-permalink: /make/sensor-assemblies/sunrise
+title: 3D print case & assemble
+permalink: /make/lilygo213/assemble
 breadcrumb:
     - 
       name: Make a Device
       url: /make
     - 
       name: LilyGO 2.13in EPD
-      url: /make/lilygo213    
+      url: /make/lilygo213   
     - 
-      name: Senseair Sunrise (I2C)
+      name: Assemble
 ---
 
 ## Overview
@@ -242,7 +242,7 @@ The two colors of wire have the following meanings.
 
 Place the PCB so that the CO2 sensor & BME280 socket are on the side facing upwards. Orienate it so that the BME280 socket is on the bottom side and the 8way header pins are on the left (actual pin connectors on the underside).
 
-Solder a length of blue wire (I2C SDA) to pin 3 on the 8 way right angle connector. Then solder a length of green wire (I2C SCL) to pin 4 on the same connector.
+Solder a length of blue wire (I2C SDA) to pin 6 on the 8 way right angle connector. Then solder a length of green wire (I2C SCL) to pin 5 on the same connector.
 
 Adjust the length on each wire so that they both go through to the other side of the PCB at a location where there is space to connect wires on the other side.
 
@@ -281,7 +281,7 @@ The two colors of wire have the following meanings.
 
 Place the PCB so that the CO2 sensor & BME280 socket are on the side facing upwards. Orienate it so that the BME280 socket is on the bottom side and the 8way header pins are on the left (actual pin connectors on the underside).
 
-Solder a length of white wire (Enable sensor) to pin 7 on the 8 way right angle connector. Then solder a length of yellow wire (Reading ready) to pin 8 on the same connector.
+Solder a length of white wire (Enable sensor) to pin 2 on the 8 way right angle connector. Then solder a length of yellow wire (Reading ready) to pin 1 on the same connector.
 
 The white enable sensor wire should be adjusted so that it fits neatly to go through the PCB hole next to the Senseair Sunrise EN pin. Solder to connect to the EN pin on the other side of the PCB.
 
