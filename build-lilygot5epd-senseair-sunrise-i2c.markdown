@@ -46,9 +46,10 @@ Through Hole|
 |Black|Ground|
 |Red|3.3v|
 |Blue|I2C SDA|
-|Green|I2C CLK|
-|White|Reading Ready|
-|Yellow|Enable Sensor|
+|Green|I2C SCL|
+|White|Enable Sensor|
+|Yellow|Reading Ready|
+
 
 
 ## Build Steps 
@@ -195,4 +196,101 @@ Solder the pin and the two wires together. The result should look similar to the
 
 <img src="/buildimages/v1.0/sunrise-step5-d.jpg" style="width:auto" height="154" alt="Connection from pin 2 of 8 way to hole beside BME280 VIN pin with wire pushed through hole"/>
 
+
+### Step 6 - Wire GND (Black wire)
+
+Get the following parts ready before starting this step.
+
+|Part|Description|
+|--|--|
+|22402A-17|3cm x 7cm double sided universal PCB|
+|Wire|Black wire|
+
+Place the PCB so that the CO2 sensor & BME280 socket are on the side facing upwards. Orienate it so that the BME280 socket is on the bottom side and the 8way header pins are on the left (actual pin connectors on the underside).
+
+Solder a piece of black wire to pin 1 on the 8 way right angle connector who's pins are on the right hand side. This wire should be the right length to neatly go through the PCB next to the VIN connection.
+
+Again leave enough stripped wire to touch the GND pin on the BME280 socket. See image below.
+
+<img src="/buildimages/v1.0/sunrise-step6-a.jpg" style="width:auto" height="200" alt="Connection from pin 1 of 8 way for GND"/>
+
+Turn the PCB so that the right angle pins are on top and the CO2 sensor is on the bottom.
+
+Solder two lengths of cable onto the GND and COMSEL pins of the Senseair Sunrise sensor. The GND pin will require a longer length than the COMSEL pin.  See image below:-
+
+<img src="/buildimages/v1.0/sunrise-step6-b.jpg" style="width:auto" height="200" alt="Two lengths of cable soldered onto the GND and COMSEL pins of the Senseair Sunrise sensor"/>
+
+Shorten and strip the two lengths of wire just soldered so that they neatly reach the GND pin of the BME280 socket and GND wire coming from other side of the PCB.
+
+Solder the two pieces of wire, the BME280 GND pin and the GND wire from the other side of the PCB together. See image below:-
+
+<img src="/buildimages/v1.0/sunrise-step6-c.jpg" style="width:auto" height="154" alt="All GND wires soldered together"/>
+
+### Step 7 - Wire I2C (Green and Blue wire)
+
+Get the following parts ready before starting this step.
+
+|Part|Description|
+|--|--|
+|22402A-17|3cm x 7cm double sided universal PCB|
+|Wire|Green & Blue wire|
+
+The two colors of wire have the following meanings.
+
+|Color|Purpose|
+|--|--|
+|Blue|I2C SDA|
+|Green|I2C SCL|
+
+
+Place the PCB so that the CO2 sensor & BME280 socket are on the side facing upwards. Orienate it so that the BME280 socket is on the bottom side and the 8way header pins are on the left (actual pin connectors on the underside).
+
+Solder a length of blue wire (I2C SDA) to pin 6 on the 8 way right angle connector. Then solder a length of green wire (I2C SCL) to pin 5 on the same connector.
+
+Adjust the length on each wire so that they both go through to the other side of the PCB at a location where there is space to connect wires on the other side.
+
+Finally place a length of blue wire (I2C SDA) to connect from the blue "junction point" back to the BME280 socket SDA pin. This will be soldered from the other side of the board.
+
+<img src="/buildimages/v1.0/sunrise-step7-a.jpg" style="width:auto" height="200" alt="I2C connections on sensor side of PCB."/>
+
+Turn the PCB so that the right angle pins are on top and the CO2 sensor is on the bottom.
+
+Solder the blue (I2C SDA) wire connections together and add an additional piece of blue wire to connect the Senseair Sunrise I2C pin. 
+
+Solder the blue (I2C SDA) wire to the BME280 socket SDA pin. 
+
+Solder the green (I2C SCL) wire connections together and route an additional green wire to both the BME280 socket SCL pin and the Senseair Sunrise socket pin. 
+
+See image below:-
+<img src="/buildimages/v1.0/sunrise-step7-b.jpg" style="width:auto" height="200" alt="I2C connections on pin connector side of PCB."/>
+
+### Step 8 - Wire CO2 sensor control (White and yellow wire)
+
+Get the following parts ready before starting this step.
+
+|Part|Description|
+|--|--|
+|22402A-17|3cm x 7cm double sided universal PCB|
+|Wire|White & Yellow wire|
+
+The two colors of wire have the following meanings.
+
+|Color|Purpose|
+|--|--|
+|White|Enable Sensor|
+|Yellow|Reading Ready|
+
+
+Place the PCB so that the CO2 sensor & BME280 socket are on the side facing upwards. Orienate it so that the BME280 socket is on the bottom side and the 8way header pins are on the left (actual pin connectors on the underside).
+
+Solder a length of white wire (Enable sensor) to pin 2 on the 8 way right angle connector. Then solder a length of yellow wire (Reading ready) to pin 1 on the same connector.
+
+The white enable sensor wire should be adjusted so that it fits neatly to go through the PCB hole next to the Senseair Sunrise EN pin. Solder to connect to the EN pin on the other side of the PCB.
+
+The yellow reading ready wire should be adjusted so that it fits neatly to go through the PCB hole next to the Senseair Sunrise nRDY pin. Solder to connect to the nRDY pin on the other side of the PCB.
+
+<img src="/buildimages/v1.0/sunrise-step8-a.jpg" style="width:auto" height="200" alt="I2C connections on sensor side of PCB."/>
+
+Finally place a BME280 breakout board into the socket. See image below:-
+<img src="/buildimages/v1.0/sunrise-step7-b.jpg" style="width:auto" height="200" alt="I2C connections on pin connector side of PCB."/>
 
