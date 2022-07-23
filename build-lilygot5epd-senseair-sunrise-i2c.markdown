@@ -262,7 +262,7 @@ Solder the blue (I2C SDA) wire to the BME280 socket SDA pin.
 Solder the green (I2C SCL) wire connections together and route an additional green wire to both the BME280 socket SCL pin and the Senseair Sunrise socket pin. 
 
 See image below:-
-<img src="/buildimages/v1.0/sunrise-step8-b.jpg" style="width:auto" height="200" alt="I2C connections on pin connector side of PCB."/>
+<img src="/buildimages/v1.0/sunrise-step7-b.jpg" style="width:auto" height="200" alt="I2C connections on pin connector side of PCB."/>
 
 ### Step 8 - Wire CO2 sensor control (White and yellow wire)
 
@@ -292,5 +292,5 @@ The yellow reading ready wire should be adjusted so that it fits neatly to go th
 <img src="/buildimages/v1.0/sunrise-step8-a.jpg" style="width:auto" height="200" alt="I2C connections on sensor side of PCB."/>
 
 Finally place a BME280 breakout board into the socket. See image below:-
-<img src="/buildimages/v1.0/sunrise-step7-b.jpg" style="width:auto" height="200" alt="I2C connections on pin connector side of PCB."/>
+<img src="/buildimages/v1.0/sunrise-step8-b.jpg" style="width:auto" height="200" alt="I2C connections on pin connector side of PCB."/>
 
