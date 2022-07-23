@@ -22,7 +22,7 @@ Once completed this part will appear in as shown in the image below.
 
 
 
-## Parts
+### Parts
 
 |Part|Description|
 |--|--|
@@ -36,7 +36,7 @@ Through Hole|
 |2.54mm pin header|8 Way, 1 row, right angle pin header|
 |Wire|Six colors of wire.|
 
-## Wire Colors
+### Wire Colors
 
 |Color|Purpose|
 |--|--|
@@ -50,6 +50,16 @@ Through Hole|
 
 
 ## Build Steps 
+
+  - [Step 1 - Attach the 8 way right angle pin header](#step-1---attach-the-8-way-right-angle-pin-header)
+  - [Step 2 - Attach 4 way PCB Socket for BME280 board](#step-2---attach-4-way-pcb-socket-for-bme280-board)
+  - [Step 3 - Mounting CO2 Sensor pin headers](#step-3---mounting-co2-sensor-pin-headers)
+  - [Step 4 - Attach Sunrise CO2 Sensor](#step-4---attach-sunrise-co2-sensor)
+  - [Step 4 - Attach Sunrise CO2 Sensor](#step-4---attach-sunrise-co2-sensor)
+  - [Step 5 - Wire 3.3V VIN (Red wire)](#step-5---wire-33v-vin-red-wire)
+  - [Step 6 - Wire GND (Black wire)](#step-6---wire-gnd-black-wire)
+  - [Step 7 - Wire I2C (Green and Blue wire)](#step-7---wire-i2c-green-and-blue-wire)
+  - [Step 8 - Wire CO2 sensor control (White and yellow wire)](#step-8---wire-co2-sensor-control-white-and-yellow-wire)
 
 ### Step 1 - Attach the 8 way right angle pin header
 
