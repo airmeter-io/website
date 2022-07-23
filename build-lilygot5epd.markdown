@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Portable CO2 monitor with an ePaper display
+title: Battery Operated ePaper CO2 monitor
 permalink: /make/epd213
 breadcrumb:
     - 
