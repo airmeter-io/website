@@ -12,9 +12,13 @@ breadcrumb:
 
 <img src="/buildimages/v1.0/finished-device.jpg" style="width:auto" alt="Complete ePaper CO2 monitor"/>
 
-This section describes how to build a portable battery operated device with an electronic paper display. 
+This is an extremely portable CO2 monitor with great battery life even when connected to WIFI.
 
-See the following subsections for a brief outline of each part of the build process and links to further detail.
+The design has been optimised to take advantage of the ePaper display giving live readings, graphing and the ability to calibrate just using the device itself.
+
+As this is an *AirMeter.io* device it has the full set of web and management features that the firmware provides.
+
+The device is made in several stages/parts which are described below.
 
 ### [Sensor Assembly](/make/sensor-assemblies/sunrise)
 This is a 7cm x 3cm PCB on which the sensors are mounted. On the underside which is exposed when it is screwed in place is a 8 way right angle male PCB connector to connect to the LILYGO® TTGO T5 V2.3.1_2.13 board.

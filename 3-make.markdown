@@ -13,6 +13,15 @@ breadcrumb:
 ---
 
 At its core the *AirMeter.io* firmware solely needs the supported components to be connected together in one of the supported "configurations". The enclosure, power management and methods of manufacture depend on the individual project.
+## [ePaper Build Guide](/make/epd213)
+
+<img src="/buildimages/v1.0/finished-device.jpg" style="width:auto" alt="Complete ePaper CO2 monitor"/>
+
+This is an extremely portable CO2 monitor with great battery life even when connected to WIFI.
+
+The design has been optimised to take advantage of the ePaper display giving live readings, graphing and the ability to calibrate just using the device itself.
+
+See [ePaper Build Guide](/make/epd213) for full instructions on how to build this reference design.
 
 ## Third-party Build Guides
 
@@ -21,10 +30,6 @@ At its core the *AirMeter.io* firmware solely needs the supported components to 
 This section will link to third-party external build guides & sites if & when they become available.
 
 In other words, your project goes here :).
-
-## Reference Design Guidelines
-
-In time *AirMeter.io* will provide reference designs & guidelines to showcase the ideal (but boring!) design parameters as a starting point to new designs to allow them to hit the ground running.  
 
 ## Platform Specific Documentation
 The two families of MCU that are are supported are ESP32 & ESP8266. Click on the family being targeted by the device or development project.
