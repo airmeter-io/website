@@ -10,7 +10,7 @@ breadcrumb:
       name: LilyGO 2.13in EPD
 ---
 
-## Overview
+<img src="/buildimages/v1.0/finished-device.jpg" style="width:auto" alt="Complete ePaper CO2 monitor"/>
 
 This section describes how to build a portable battery operated device with an electronic paper display. 
 

@@ -13,15 +13,6 @@ breadcrumb:
       name: Prepare board
 ---
 
-## Overview
-
-This page describes how to build the Sensor Assembly for a Senseair Sunrise CO2 sensor. This board connects to a LilyGO 2.13in EPD displayboard via a right angle pin header mounted on the board.
-
-Once completed this part will appear in as shown in the image below.
-<img src="/buildimages/v1.0/sunrise-finished-top.jpg" style="width:auto" height="170" alt="Completed Sensor Assembly for a Senseair Sunrise CO2 sensor"/>
-
-
-
 ## Parts
 
 |Part|Description|
