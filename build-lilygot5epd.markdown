@@ -27,6 +27,9 @@ The LILYGO® TTGO T5 V2.3.1_2.13 board provides the following in one package:
 
 This board must have an 8 way connector andwires soldered to it to acts as a cable to connect to the sensor assembly.
 
+### [Attach 1.25mm JST connector to battery](/make/epd213/battery)
+The LILYGO® TTGO T5 V2.3.1_2.13 board uses a 1.25mm pitch JST connector for the battery. The FT103450P battery must have such a connector attached.
+
 ### [3D print case & assemble](/make/epd213/assemble)
 The case must be printed using a suitable 3D printer. The LilyGO board and sensor assembly must be assembled in a specific order.
 
