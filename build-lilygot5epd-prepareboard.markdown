@@ -1,37 +1,32 @@
 ---
 layout: default
-title: Prepare LilyGo board
-permalink: /make/lilygo213/prepare
+title: Prepare LILYGO® TTGO T5 board
+permalink: /make/epd213/prepare
 breadcrumb:
     - 
       name: Make a Device
       url: /make
     - 
-      name: LilyGO 2.13in EPD
-      url: /make/lilygo213   
+      name: ePaper
+      url: /make/epd213   
     - 
       name: Prepare board
 ---
+
+The LILYGO® TTGO T5 V2.3.1_2.13 board provides the following in one package:
+- An ESP32, antenta and flash.
+- A 2.13in ePaper SPI display.
+- Battery control circuitry.
+
+This board must have an 8 way connector andwires soldered to it to acts as a cable to connect to the sensor assembly. This process is described below.
 
 ## Parts
 
 |Part|Description|
 |--|--|
-|LILYGO® TTGO T5 V2.3.1_2.13|2.13in EPD and ESP32 board with battery charging support.  DEPG0213BN version is supported currently. |
+|LILYGO® TTGO T5 V2.3.1_2.13|2.13in EPD and ESP32 board with battery charging.  DEPG0213BN version is supported currently. |
 |2.54mm pin socket|8 Way, 1 row, socket|
 |Wire|Six colors of wire.|
-
-## Wire Colors
-
-|Color|Purpose|
-|--|--|
-|Black|Ground|
-|Red|3.3v|
-|Blue|I2C SDA|
-|Green|I2C SCL|
-|White|Enable Sensor|
-|Yellow|Reading Ready|
-
 
 
 ## Build Steps 
@@ -58,7 +53,7 @@ The lengths of wire should be attached to the following pins.
 
 Enough wire must be left to complete the following steps. See image below:-
 
-<img src="/buildimages/v1.0/lilygo213-step1.jpg" style="width:auto" height="200" alt="LilyGo board with 6 lengths of wire attached."/>
+<img src="/buildimages/v1.0/lilygo213-step1.jpg" style="width:auto" height="200" alt="LilyGo 2.13 epd board with 6 lengths of wire attached."/>
 
 
 ### Step 2 - Route & bundle wires

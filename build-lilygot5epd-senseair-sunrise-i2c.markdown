@@ -7,8 +7,8 @@ breadcrumb:
       name: Make a Device
       url: /make
     - 
-      name: LilyGO 2.13in EPD
-      url: /make/lilygo213    
+      name: ePaper
+      url: /make/epd213    
     - 
       name: Senseair Sunrise (I2C)
 ---

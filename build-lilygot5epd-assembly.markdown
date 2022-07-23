@@ -1,14 +1,14 @@
 ---
 layout: default
 title: 3D print case & assemble
-permalink: /make/lilygo213/assemble
+permalink: /make/epd213/assemble
 breadcrumb:
     - 
       name: Make a Device
       url: /make
     - 
-      name: LilyGO 2.13in EPD
-      url: /make/lilygo213   
+      name: ePaper 
+      url: /make/epd213   
     - 
       name: Assemble
 ---
