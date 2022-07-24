@@ -24,7 +24,7 @@ Before assembly can begin ensure you have the following components prepared and 
 - 10x M2x6mm self tapping screws.
 
 ## 3D Printed Parts
-The casing for the CO2 monitor is printed using a 3D printer. The models are available at http://github/todo. The table below describes each part and its purpose.
+The casing for the CO2 monitor is printed using a 3D printer. The models are available at [https://github.com/airmeter-io/epd213](https://github.com/airmeter-io/epd213). The table below describes each part and its purpose.
 
 |Part|Name|Dimensions (mm)|Description|
 |--|--|--|--|
@@ -56,7 +56,7 @@ It will only be possible to screw into two pillars. This is sufficiant.
 
 Note that the 8 way right angle pin connector should be orientated so that it is closest to the case. You will notice one set of pillars are right beside the edge.
 
-## Step 3 - Putting it all together
+## Step 2 - Putting it all together
 
 First connect the [Battery](/make/epd213/battery) to the JST connector on the LILYGO board which has been put into the Front part. Now neatly as possible route the wires to avoid them being crushed.
 
