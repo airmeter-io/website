@@ -7,7 +7,7 @@ breadcrumb:
       name: Make a Device
       url: /make
     - 
-      name: ePaper 
+      name: ePaper Display
       url: /make/epd213   
     - 
       name: Assemble

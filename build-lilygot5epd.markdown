@@ -1,13 +1,13 @@
 ---
 layout: default
-title: Battery Operated ePaper CO2 monitor
+title: Portable ePaper AirMeter.io device
 permalink: /make/epd213
 breadcrumb:
     - 
       name: Make a Device
       url: /make
     - 
-      name: ePaper
+      name: ePaper Display
 ---
 
 <img src="/buildimages/v1.0/finished-device.jpg" style="width:auto" alt="Complete ePaper CO2 monitor"/>
