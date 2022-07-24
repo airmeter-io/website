@@ -14,8 +14,9 @@ breadcrumb:
 ---
 
 ## Overview
+The Sensor Assembly is a small PCB (7cm x 3cm) on which the sensors are mounted. On the underside which is exposed when it is screwed in place is a set of 8 way right angle PCB pins.
 
-This page describes how to build the Sensor Assembly for a Senseair Sunrise CO2 sensor. This board connects to a LilyGO 2.13in EPD displayboard via a right angle pin header mounted on the board.
+These pins connect to the 8 way PCB socket wired to the [LILYGO® TTGO T5 board](/make/epd213/prepare).
 
 Once completed this part will appear in as shown in the image below.
 <img src="/buildimages/v1.0/sunrise-finished-top.jpg" style="width:auto" height="170" alt="Completed Sensor Assembly for a Senseair Sunrise CO2 sensor"/>

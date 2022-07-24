@@ -13,12 +13,14 @@ breadcrumb:
       name: Prepare board
 ---
 
-The LILYGO® TTGO T5 V2.3.1_2.13 board provides the following in one package:
-- An ESP32, antenta and flash.
+The LILYGO® TTGO T5 V2.3.1_2.13 board provides the following:
+- ESP32, antenna (WIFI, BT and ESP NOW) and flash memory.
 - A 2.13in ePaper SPI display.
 - Battery control circuitry.
+- USB serial adapter & SD Card reader.
+- Action and reset buttons.
 
-This board must have an 8 way connector andwires soldered to it to acts as a cable to connect to the sensor assembly. This process is described below.
+An 8 way PCB socket connector must be connected using 6 wires soldered to it to and the connector. This process is described below.
 
 ## Parts
 
