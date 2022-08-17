@@ -28,7 +28,7 @@ The remaining instructions in this document assume that the "ESP-IDF CMD" link o
 
 Follow the instructions at [https://docs.espressif.com/projects/esp-idf/en/latest/esp32/get-started/](https://docs.espressif.com/projects/esp-idf/en/latest/esp32/get-started/) and ensure that the user environment is set up correctly.
 
-The remaining instructions in this document assume that the users shell has the appropriate environment variables set and the IDF v4.3 SDK checked out.
+The remaining instructions in this document assume that the users shell has the appropriate environment variables set and the IDF v4.4 SDK checked out.
   
 
 ## Clone & initialise the latest AirMeter.IO Monitor firmware
