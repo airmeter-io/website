@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Senseair Sunrise Sensor Assembly
-permalink: /make/sensor-assemblies/sunrise
+permalink: /make/sensor-assemblies/sunrise-universalpcb
 breadcrumb:
     - 
       name: Make a Device
@@ -11,6 +11,9 @@ breadcrumb:
       url: /make/epd213    
     - 
       name: Senseair Sunrise (I2C)
+      url: /make/sensor-assemblies/sunrise
+    - 
+      name: Universal PCB
 ---
 
 ## Overview
