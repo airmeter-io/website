@@ -27,7 +27,7 @@ NOTE: This requires a custom Sensor Assembly PCB which means these steps can be 
 
 |Part|Description|
 |--|--|
-|SensorAssemblyV1.0|The AirMeter.io Sensor Assembly PCB (See https://github.com/airmeter-io/SensorAssembly)|
+|SensorAssemblyV1.0|See [https://github.com/airmeter-io/SensorAssembly](https://github.com/airmeter-io/SensorAssembly)|
 |006-0-0007 or 006-0-0008|Senseair Sunrise CO2 sensor|
 |BME280-5V|BME280 breakout board the 4 pin version which is usually labeled as supporting 5v due to the regulator used|
 |2.54mm socket|4 Way 1 Row Straight PCB Socket Through Hole|
@@ -72,7 +72,7 @@ Get the following parts ready before starting this step.
 
 |Part|Description|
 |--|--|
-|SensorAssemblyV1.0|The AirMeter.io Sensor Assembly PCB (See [https://github.com/airmeter-io/SensorAssembly](https://github.com/airmeter-io/SensorAssembly))|
+|SensorAssemblyV1.0|See [https://github.com/airmeter-io/SensorAssembly](https://github.com/airmeter-io/SensorAssembly)|
 |2.54mm pin header|4 Way, 1 row, straight pin header|
 |2.54mm pin header|5 Way, 1 row, straight pin header|
 
@@ -103,7 +103,7 @@ Get the following parts ready before starting this step.
 
 |Part|Description|
 |--|--|
-|SensorAssemblyV1.0|The AirMeter.io Sensor Assembly PCB (See [https://github.com/airmeter-io/SensorAssembly](https://github.com/airmeter-io/SensorAssembly))|
+|SensorAssemblyV1.0|See [https://github.com/airmeter-io/SensorAssembly](https://github.com/airmeter-io/SensorAssembly)|
 |2.54mm socket|4 Way 1 Row Straight PCB Socket Through Hole|
 
 
@@ -124,7 +124,7 @@ Get the following parts ready before starting this step.
 
 |Part|Description|
 |--|--|
-|SensorAssemblyV1.0|The AirMeter.io Sensor Assembly PCB (See [https://github.com/airmeter-io/SensorAssembly](https://github.com/airmeter-io/SensorAssembly))|
+|SensorAssemblyV1.0|See [https://github.com/airmeter-io/SensorAssembly](https://github.com/airmeter-io/SensorAssembly)|
 |006-0-0007 or 006-0-0008|Senseair Sunrise CO2 sensor|
 
 Place the Senseair Sunrise CO2 sensor on the pins attached in the previous step. The pins must align exactly with the Senseair Sunrise PCB if they don't the previous step was not completed correctly.
