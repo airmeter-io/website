@@ -58,9 +58,9 @@ Get the following parts ready before starting this step.
 
 <img src="/buildimages/v1.0/pcbsunrise-step1-parts.jpg" style="width:auto" height="200" alt="Parts required for step 1 of assembly"/>
 
-At one thin (10 holes/3cm wide) end of the PCB attach the pin header to the PCB using solder. The pins must face inwards towards the other thin end of the PCB. 
+Solder the 8 way pin header to the PCB on the holes marked "BOARDPINS". The pins must face inwards towards the other end of the PCB. 
 
-After completing this step the PCB should appear as in the the image below.
+After completing this step the PCB should appear as in the image below.
 
 <img src="/buildimages/v1.0/pcbsunrise-step1-output.jpg" style="width:auto" height="154" alt="PCB after step 1 has been completed"/>
 
@@ -78,11 +78,11 @@ Get the following parts ready before starting this step.
 
 The pin headers need to be adjusted so that the minimum length extrudes from the rear of the PCB. The pins will stick out on the PCB side to which the sensor is attached. This is the side of the PCB that the pins are labeled.
 
-<strong>This is important to allow the PCB to fit within the case.</strong>
+<strong>This is important to allow the PCB to fit within the case, in particular by not putting pressure on the battery.</strong>
 
 The parts for this step are shown in the following image:-
 
-<img src="/buildimages/v1.0/pcbsunrise-step2-parts.jpg" style="width:auto" height="154" alt="Parts required for step 2 of assembly"/>
+<img src="/buildimages/v1.0/pcbsunrise-step2-parts.jpg" style="width:auto" width="154" alt="Parts required for step 2 of assembly"/>
 
 
 
@@ -127,7 +127,7 @@ Get the following parts ready before starting this step.
 |SensorAssemblyV1.0|See [https://github.com/airmeter-io/SensorAssembly](https://github.com/airmeter-io/SensorAssembly)|
 |006-0-0007 or 006-0-0008|Senseair Sunrise CO2 sensor|
 
-Place the Senseair Sunrise CO2 sensor on the pins attached in the previous step. The pins must align exactly with the Senseair Sunrise PCB if they don't the previous step was not completed correctly.
+Place the Senseair Sunrise CO2 sensor on the pins attached in [Step 2](#step-2---mounting-co2-sensor-pin-headers). The pins must align exactly with the Senseair Sunrise PCB if they don't they have not been mounted correctly.
 
 <img src="/buildimages/v1.0/pcbsunrise-step4-parts.jpg" style="width:auto" height="154" alt="Parts required for step 4 of assembly"/>
 
